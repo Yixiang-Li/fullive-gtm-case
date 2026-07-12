@@ -165,7 +165,7 @@ function PartOne({ language }: { language: Language }) {
         <p>{language === "en" ? "GTM TAKE-HOME · PART 1" : "GTM TAKE-HOME · 第一部分"}</p>
         <h1>{language === "en" ? "Market & Competitor Research" : "市场与竞品研究"}</h1>
         <span>{language === "en" ? "11 Jul 2026" : "2026 年 7 月 11 日"}</span>
-        <img src="/fullive-hero.jpg" alt="Fullive.ai" />
+        <img src="./fullive-hero.jpg" alt="Fullive.ai" />
       </section>
 
       <article className="article-body">
@@ -440,7 +440,7 @@ function PartTwo({ language }: { language: Language }) {
         <p>{language === "en" ? "GTM TAKE-HOME · PART 2" : "GTM TAKE-HOME · 第二部分"}</p>
         <h1>{language === "en" ? "Consumer Research Survey" : "消费者研究问卷"}</h1>
         <span>{language === "en" ? "3–4 minute concept survey" : "3–4 分钟概念问卷"}</span>
-        <img src="/fullive-hero.jpg" alt="Fullive.ai" />
+        <img src="./fullive-hero.jpg" alt="Fullive.ai" />
       </section>
 
       <article className="article-body">
@@ -682,7 +682,7 @@ function PartThree({ language }: { language: Language }) {
         <p>{language === "en" ? "GTM TAKE-HOME · PART 3" : "GTM TAKE-HOME · 第三部分"}</p>
         <h1>{language === "en" ? "Creator Sourcing" : "创作者筛选"}</h1>
         <span>{language === "en" ? "North America · short-form first" : "北美 · 短视频优先"}</span>
-        <img src="/fullive-hero.jpg" alt="Fullive.ai" />
+        <img src="./fullive-hero.jpg" alt="Fullive.ai" />
       </section>
 
       <article className="article-body">
@@ -727,7 +727,7 @@ function PurchaseModal({ language, onClose }: { language: Language; onClose: () 
       <button className="modal-close" type="button" onClick={onClose} aria-label={isEn ? "Close" : "关闭"}>×</button>
       {complete ? <div className="purchase-success"><span>FULLIVE ONE</span><h2>{isEn ? "Your night starts here." : "你的夜晚，从这里开始。"}</h2><p>{isEn ? "This launch prototype has modeled a completed order. No payment or personal information was collected." : "此发布原型已模拟完成订单，未收集付款或个人信息。"}</p><button type="button" onClick={onClose}>{isEn ? "Continue exploring" : "继续浏览"}</button></div> : <>
         <p className="modal-eyebrow">{isEn ? "BUY FULLIVE ONE" : "购买 FULLIVE ONE"}</p>
-        <div className="purchase-layout"><img src="/fullive/fullive-system-macro-v2.png" alt="Fullive One" /><div><h2>{isEn ? "Bring the night into rhythm." : "让卧室顺着你的节奏安静下来。"}</h2><p>{isEn ? "Free shipping · 60-night home trial" : "免费配送 · 60 晚居家试用"}</p><fieldset><legend>{isEn ? "Finish" : "外观"}</legend><div className="finish-options"><button type="button" className={finish === "pearl" ? "active" : ""} onClick={() => setFinish("pearl")}><i className="pearl" />{isEn ? "Pearl" : "珍珠白"}</button><button type="button" className={finish === "graphite" ? "active" : ""} onClick={() => setFinish("graphite")}><i className="graphite" />{isEn ? "Graphite" : "石墨黑"}</button></div></fieldset><ul><li>{isEn ? "Fullive One sleep-space device" : "Fullive One 睡眠环境设备"}</li><li>{isEn ? "Three scent capsules" : "三枚香氛胶囊"}</li><li>{isEn ? "Fullive app and Bio-OS personalization" : "Fullive App 与 Bio-OS 个性化服务"}</li><li>{isEn ? "Two-year limited warranty" : "两年有限保修"}</li></ul><button className="buy-submit" type="button" onClick={() => setComplete(true)}>{isEn ? "Add to bag" : "加入购物袋"}</button><small>{isEn ? "Prototype checkout — no payment is processed." : "此为演示性结账流程，不会产生真实付款。"}</small></div></div>
+        <div className="purchase-layout"><img src="./fullive/fullive-system-macro-v2.png" alt="Fullive One" /><div><h2>{isEn ? "Bring the night into rhythm." : "让卧室顺着你的节奏安静下来。"}</h2><p>{isEn ? "Free shipping · 60-night home trial" : "免费配送 · 60 晚居家试用"}</p><fieldset><legend>{isEn ? "Finish" : "外观"}</legend><div className="finish-options"><button type="button" className={finish === "pearl" ? "active" : ""} onClick={() => setFinish("pearl")}><i className="pearl" />{isEn ? "Pearl" : "珍珠白"}</button><button type="button" className={finish === "graphite" ? "active" : ""} onClick={() => setFinish("graphite")}><i className="graphite" />{isEn ? "Graphite" : "石墨黑"}</button></div></fieldset><ul><li>{isEn ? "Fullive One sleep-space device" : "Fullive One 睡眠环境设备"}</li><li>{isEn ? "Three scent capsules" : "三枚香氛胶囊"}</li><li>{isEn ? "Fullive app and Bio-OS personalization" : "Fullive App 与 Bio-OS 个性化服务"}</li><li>{isEn ? "Two-year limited warranty" : "两年有限保修"}</li></ul><button className="buy-submit" type="button" onClick={() => setComplete(true)}>{isEn ? "Add to bag" : "加入购物袋"}</button><small>{isEn ? "Prototype checkout — no payment is processed." : "此为演示性结账流程，不会产生真实付款。"}</small></div></div>
       </>}
     </section>
   </div>;
@@ -741,10 +741,10 @@ function PartFourLanding({ language, onLanguageChange, onBack }: { language: Lan
   const isEn = language === "en";
   const scrollTo = (id: string) => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   const highlights = [
-    { title: { en: "Leave the day behind.", zh: "把白天留在门外。" }, copy: { en: "Fullive shifts your room from active to restorative before your head reaches the pillow.", zh: "你还没躺下，房间已经先安静下来，帮你慢慢从忙碌切换到休息。" }, image: "/fullive/fullive-launch-hero-v2.png" },
-    { title: { en: "Four cues. One rhythm.", zh: "四种感官线索，同步协作。" }, copy: { en: "Scent, light, sound and temperature respond as one coordinated sleep environment.", zh: "香氛、灯光、声音和温度不再各自运行，而是围绕同一段睡眠节奏协同变化。" }, image: "/fullive/fullive-system-macro-v2.png" },
-    { title: { en: "Learns night after night.", zh: "越用，越懂你的夜晚。" }, copy: { en: "Bio-OS learns what settles you and quietly adapts the sequence around your routine.", zh: "Bio-OS 会记住哪些变化更适合你，并据此微调下一晚的节奏。" }, image: "/fullive/fullive-night-hero.png" },
-    { title: { en: "Wake into the day.", zh: "醒来时，也更从容。" }, copy: { en: "A gradual morning sequence brings light, sound and temperature back with intention.", zh: "灯光、声音和温度缓缓回到白天的状态，让清晨不再来得那么突然。" }, image: "/fullive/fullive-morning-v2.png" },
+    { title: { en: "Leave the day behind.", zh: "把白天留在门外。" }, copy: { en: "Fullive shifts your room from active to restorative before your head reaches the pillow.", zh: "你还没躺下，房间已经先安静下来，帮你慢慢从忙碌切换到休息。" }, image: "./fullive/fullive-launch-hero-v2.png" },
+    { title: { en: "Four cues. One rhythm.", zh: "四种感官线索，同步协作。" }, copy: { en: "Scent, light, sound and temperature respond as one coordinated sleep environment.", zh: "香氛、灯光、声音和温度不再各自运行，而是围绕同一段睡眠节奏协同变化。" }, image: "./fullive/fullive-system-macro-v2.png" },
+    { title: { en: "Learns night after night.", zh: "越用，越懂你的夜晚。" }, copy: { en: "Bio-OS learns what settles you and quietly adapts the sequence around your routine.", zh: "Bio-OS 会记住哪些变化更适合你，并据此微调下一晚的节奏。" }, image: "./fullive/fullive-night-hero.png" },
+    { title: { en: "Wake into the day.", zh: "醒来时，也更从容。" }, copy: { en: "A gradual morning sequence brings light, sound and temperature back with intention.", zh: "灯光、声音和温度缓缓回到白天的状态，让清晨不再来得那么突然。" }, image: "./fullive/fullive-morning-v2.png" },
   ];
   const cues = [
     { label: { en: "Light", zh: "灯光" }, value: "2200K → dawn", title: { en: "Light that follows your night.", zh: "让灯光顺着夜晚慢慢变化。" }, copy: { en: "Warm light lowers as you wind down, disappears for sleep and returns gradually before your alarm.", zh: "睡前逐渐变暗，入睡后熄灭，再在闹钟响起前缓缓亮起。" } },
@@ -753,15 +753,15 @@ function PartFourLanding({ language, onLanguageChange, onBack }: { language: Lan
     { label: { en: "Temperature", zh: "温度" }, value: "16–24°C adaptive", title: { en: "Comfort that changes with the hour.", zh: "不同阶段，温度也该不同。" }, copy: { en: "Fullive coordinates compatible climate devices around your preferred sleep curve through the night.", zh: "Fullive 按照你的偏好与睡眠节奏，联动兼容设备调节室温。" } },
   ];
   const nightSteps = [
-    { time: "9:45 PM", label: { en: "Transition", zh: "结束工作" }, title: { en: "Work ends. The room changes with you.", zh: "合上电脑，卧室也慢下来。" }, copy: { en: "Fullive recognizes the beginning of your routine and lowers stimulation across the room — before you have to think about it.", zh: "Fullive 感知到你开始进入睡前流程，提前调暗灯光、降低声音刺激，不必让你逐项设置。" }, image: "/fullive/fullive-launch-hero-v2.png" },
-    { time: "10:30 PM", label: { en: "Wind down", zh: "准备入睡" }, title: { en: "One touch. Then nothing to manage.", zh: "轻触一下，剩下的交给 Fullive。" }, copy: { en: "Your preferred scent cue begins, the light warms and an adaptive soundscape takes over from the day.", zh: "熟悉的香气慢慢散开，灯光转暖，自适应声景将白天的嘈杂隔在房间之外。" }, image: "/fullive/fullive-evening-routine.png" },
-    { time: "2:10 AM", label: { en: "Adapt", zh: "夜间适应" }, title: { en: "The system stays awake so you do not have to.", zh: "你睡着以后，系统仍在安静调节。" }, copy: { en: "Bio-OS reads room conditions and quietly adjusts sound and climate while the display stays dark.", zh: "Bio-OS 持续读取房间状态，在不亮屏、不打扰的前提下调整声音与温度。" }, image: "/fullive/fullive-night-hero.png" },
-    { time: "6:45 AM", label: { en: "Rise", zh: "自然醒来" }, title: { en: "Morning arrives by degrees.", zh: "让清晨慢慢亮起来。" }, copy: { en: "Light returns slowly, the room warms and a soft sound cue brings the routine full circle.", zh: "灯光缓缓亮起，室温逐渐回升，再用柔和的声音带你进入新的一天。" }, image: "/fullive/fullive-morning-v2.png" },
+    { time: "9:45 PM", label: { en: "Transition", zh: "结束工作" }, title: { en: "Work ends. The room changes with you.", zh: "合上电脑，卧室也慢下来。" }, copy: { en: "Fullive recognizes the beginning of your routine and lowers stimulation across the room — before you have to think about it.", zh: "Fullive 感知到你开始进入睡前流程，提前调暗灯光、降低声音刺激，不必让你逐项设置。" }, image: "./fullive/fullive-launch-hero-v2.png" },
+    { time: "10:30 PM", label: { en: "Wind down", zh: "准备入睡" }, title: { en: "One touch. Then nothing to manage.", zh: "轻触一下，剩下的交给 Fullive。" }, copy: { en: "Your preferred scent cue begins, the light warms and an adaptive soundscape takes over from the day.", zh: "熟悉的香气慢慢散开，灯光转暖，自适应声景将白天的嘈杂隔在房间之外。" }, image: "./fullive/fullive-evening-routine.png" },
+    { time: "2:10 AM", label: { en: "Adapt", zh: "夜间适应" }, title: { en: "The system stays awake so you do not have to.", zh: "你睡着以后，系统仍在安静调节。" }, copy: { en: "Bio-OS reads room conditions and quietly adjusts sound and climate while the display stays dark.", zh: "Bio-OS 持续读取房间状态，在不亮屏、不打扰的前提下调整声音与温度。" }, image: "./fullive/fullive-night-hero.png" },
+    { time: "6:45 AM", label: { en: "Rise", zh: "自然醒来" }, title: { en: "Morning arrives by degrees.", zh: "让清晨慢慢亮起来。" }, copy: { en: "Light returns slowly, the room warms and a soft sound cue brings the routine full circle.", zh: "灯光缓缓亮起，室温逐渐回升，再用柔和的声音带你进入新的一天。" }, image: "./fullive/fullive-morning-v2.png" },
   ];
   const lives = [
-    { tab: { en: "High-pressure work", zh: "高压工作" }, title: { en: "The workday is over. Your mind has not noticed yet.", zh: "电脑合上了，大脑却还没下班。" }, copy: { en: "Fullive lets the room take over the transition, so bedtime does not become one more decision after a demanding day.", zh: "Fullive 自动调整睡前环境，让忙了一天的你不必再费心安排如何放松。" }, image: "/fullive/fullive-launch-hero-v2.png" },
-    { tab: { en: "Training & recovery", zh: "训练与恢复" }, title: { en: "Recovery begins when the training day ends.", zh: "真正的恢复，从训练结束后开始。" }, copy: { en: "A repeatable change in light, sound and temperature tells the body that effort is over and rest can begin.", zh: "灯光、声音与温度形成稳定的变化，告诉身体：训练已经结束，现在可以进入休息。" }, image: "/fullive/fullive-recovery-v2.png" },
-    { tab: { en: "Tomorrow", zh: "明天的状态" }, title: { en: "Bring more of yourself into tomorrow.", zh: "把更好的状态，留给明天。" }, copy: { en: "A better night can show up as more focus for work, more patience for people and more energy for what matters next.", zh: "睡得更好，第二天工作更专注、与人相处更从容，也更有精力做真正重要的事。" }, image: "/fullive/fullive-morning-v2.png" },
+    { tab: { en: "High-pressure work", zh: "高压工作" }, title: { en: "The workday is over. Your mind has not noticed yet.", zh: "电脑合上了，大脑却还没下班。" }, copy: { en: "Fullive lets the room take over the transition, so bedtime does not become one more decision after a demanding day.", zh: "Fullive 自动调整睡前环境，让忙了一天的你不必再费心安排如何放松。" }, image: "./fullive/fullive-launch-hero-v2.png" },
+    { tab: { en: "Training & recovery", zh: "训练与恢复" }, title: { en: "Recovery begins when the training day ends.", zh: "真正的恢复，从训练结束后开始。" }, copy: { en: "A repeatable change in light, sound and temperature tells the body that effort is over and rest can begin.", zh: "灯光、声音与温度形成稳定的变化，告诉身体：训练已经结束，现在可以进入休息。" }, image: "./fullive/fullive-recovery-v2.png" },
+    { tab: { en: "Tomorrow", zh: "明天的状态" }, title: { en: "Bring more of yourself into tomorrow.", zh: "把更好的状态，留给明天。" }, copy: { en: "A better night can show up as more focus for work, more patience for people and more energy for what matters next.", zh: "睡得更好，第二天工作更专注、与人相处更从容，也更有精力做真正重要的事。" }, image: "./fullive/fullive-morning-v2.png" },
   ];
   const selectedHighlight = highlights[activeHighlight];
   const selectedCue = cues[activeCue];
@@ -778,7 +778,7 @@ function PartFourLanding({ language, onLanguageChange, onBack }: { language: Lan
     </header>
 
     <section className="launch-hero" id="fullive-top">
-      <img src="/fullive/fullive-launch-hero-v2.png" alt={isEn ? "Fullive One in an evening bedroom" : "夜晚卧室中的 Fullive One"} />
+      <img src="./fullive/fullive-launch-hero-v2.png" alt={isEn ? "Fullive One in an evening bedroom" : "夜晚卧室中的 Fullive One"} />
       <div className="launch-hero-shade" />
       <div className="launch-hero-copy"><p>FULLIVE ONE</p><h1>{isEn ? "Your room, tuned for sleep." : "让卧室配合你的睡眠节奏。"}</h1><span>{isEn ? "An AI-powered sleep space that learns your rhythm and orchestrates scent, light, sound and temperature around it." : "Bio-OS 学习你的作息与偏好，协调香氛、灯光、声音和温度，让你从入睡到醒来都更自然。"}</span><div><button type="button" className="primary-buy" onClick={() => setPurchaseOpen(true)}>{isEn ? "Buy" : "购买"}</button><button type="button" className="watch-night" onClick={() => scrollTo("night")}>{isEn ? "See how the night works ↓" : "看看 Fullive 如何陪你度过一晚 ↓"}</button></div></div>
       <div className="launch-benefits"><span><strong>{isEn ? "60 nights" : "60 晚"}</strong>{isEn ? "Home trial" : "居家试用"}</span><span><strong>{isEn ? "4 cues" : "4 项调节"}</strong>{isEn ? "One coordinated system" : "由一套系统协同"}</span><span><strong>{isEn ? "Bio-OS" : "Bio-OS"}</strong>{isEn ? "Self-learning and adaptive" : "持续学习，主动适应"}</span></div>
@@ -791,7 +791,7 @@ function PartFourLanding({ language, onLanguageChange, onBack }: { language: Lan
 
     <section className={`bio-system cue-${activeCue}`} id="intelligence">
       <div className="bio-copy"><p>FULLIVE BIO-OS</p><h2>{isEn ? "Four cues. One quiet intelligence." : "四种环境调节，由一套系统协同。"}</h2><span>{isEn ? "Multimodal fusion reads the room, learns your preferences and coordinates each intervention as part of one sleep curve." : "Bio-OS 感知房间状态，也学习你的偏好，让灯光、声音、香氛和温度围绕同一晚的节奏协同变化。"}</span><div className="cue-tabs" role="tablist">{cues.map((cue, index) => <button type="button" role="tab" aria-selected={activeCue === index} className={activeCue === index ? "active" : ""} onClick={() => setActiveCue(index)} key={cue.label.en}>{text(cue.label, language)}</button>)}</div><div className="cue-detail"><b>{selectedCue.value}</b><h3>{text(selectedCue.title, language)}</h3><p>{text(selectedCue.copy, language)}</p></div></div>
-      <div className="bio-product"><img src="/fullive/fullive-system-macro-v2.png" alt={isEn ? "Fullive One product detail" : "Fullive One 产品细节"} /><div className="cue-ring" /></div>
+      <div className="bio-product"><img src="./fullive/fullive-system-macro-v2.png" alt={isEn ? "Fullive One product detail" : "Fullive One 产品细节"} /><div className="cue-ring" /></div>
     </section>
 
     <section className="night-story" id="night">
@@ -808,7 +808,7 @@ function PartFourLanding({ language, onLanguageChange, onBack }: { language: Lan
       <div className="proof-heading"><p>{isEn ? "BUILT ON BIO-OS" : "BIO-OS 与隐私保护"}</p><h2>{isEn ? "Personal enough to adapt. Private enough for the bedroom." : "会适应你，也守住卧室的隐私。"}</h2></div><div className="proof-grid"><article><strong>18 min</strong><h3>{isEn ? "Faster sleep onset" : "平均入睡时间缩短"}</h3><p>{isEn ? "Average improvement in a 12-week launch study." : "12 周产品研究中的平均改善幅度。"}</p></article><article><strong>21%</strong><h3>{isEn ? "More consistent routines" : "睡前习惯更稳定"}</h3><p>{isEn ? "Measured across 214 beta participants." : "基于 214 名测试用户的记录。"}</p></article><article><strong>{isEn ? "Local first" : "本地优先"}</strong><h3>{isEn ? "Bedroom data stays protected" : "卧室数据，留在设备里"}</h3><p>{isEn ? "Core sensing and nightly decisions are processed on-device." : "核心感知与夜间调节优先在设备端完成。"}</p></article></div>
     </section>
 
-    <section className="launch-final"><img src="/fullive/fullive-system-macro-v2.png" alt="Fullive One" /><div><p>FULLIVE ONE</p><h2>{isEn ? "Tonight can work differently." : "从今晚开始，换一种睡法。"}</h2><span>{isEn ? "Free shipping · 60-night home trial · Two-year warranty" : "免费配送 · 60 晚居家试用 · 两年保修"}</span><button type="button" onClick={() => setPurchaseOpen(true)}>{isEn ? "Buy Fullive One" : "购买 Fullive One"}</button></div>
+    <section className="launch-final"><img src="./fullive/fullive-system-macro-v2.png" alt="Fullive One" /><div><p>FULLIVE ONE</p><h2>{isEn ? "Tonight can work differently." : "从今晚开始，换一种睡法。"}</h2><span>{isEn ? "Free shipping · 60-night home trial · Two-year warranty" : "免费配送 · 60 晚居家试用 · 两年保修"}</span><button type="button" onClick={() => setPurchaseOpen(true)}>{isEn ? "Buy Fullive One" : "购买 Fullive One"}</button></div>
     </section>
 
     {purchaseOpen && <PurchaseModal language={language} onClose={() => setPurchaseOpen(false)} />}
@@ -836,7 +836,7 @@ function PartFourCase({ language, onOpenLanding }: { language: Language; onOpenL
       <p>{isEn ? "GTM TAKE-HOME · PART 4" : "GTM TAKE-HOME · 第四部分"}</p>
       <h1>{isEn ? "Landing Page & Data Loop" : "落地页与数据闭环"}</h1>
       <span>{isEn ? "Consumer experience, measurement and the decisions that follow" : "页面体验、衡量方式与后续决策"}</span>
-      <div className="prototype-preview"><img src="/fullive/fullive-launch-hero-v2.png" alt={isEn ? "Fullive landing page prototype" : "Fullive 落地页原型"} /><div><strong>FULLIVE ONE</strong><p>{isEn ? "Your room, tuned for sleep." : "让卧室配合你的睡眠节奏。"}</p><button type="button" onClick={onOpenLanding}>{isEn ? "Open landing page prototype ↗" : "查看落地页原型 ↗"}</button></div></div>
+      <div className="prototype-preview"><img src="./fullive/fullive-launch-hero-v2.png" alt={isEn ? "Fullive landing page prototype" : "Fullive 落地页原型"} /><div><strong>FULLIVE ONE</strong><p>{isEn ? "Your room, tuned for sleep." : "让卧室配合你的睡眠节奏。"}</p><button type="button" onClick={onOpenLanding}>{isEn ? "Open landing page prototype ↗" : "查看落地页原型 ↗"}</button></div></div>
     </section>
 
     <article className="article-body part-four-body">
@@ -899,7 +899,7 @@ function PartFive({ language }: { language: Language }) {
       <p>{isEn ? "GTM TAKE-HOME · PART 5" : "GTM TAKE-HOME · 第五部分"}</p>
       <h1>{isEn ? "AI Workflow" : "AI 工作流说明"}</h1>
       <span>{isEn ? "Generate broadly. Verify carefully. Decide with judgment." : "先扩展，再核查，最后基于判断收敛。"}</span>
-      <img src="/fullive/fullive-system-macro-v2.png" alt={isEn ? "Fullive One prototype" : "Fullive One 原型"} />
+      <img src="./fullive/fullive-system-macro-v2.png" alt={isEn ? "Fullive One prototype" : "Fullive One 原型"} />
     </section>
     <article className="article-body">
       <p>{isEn ? "AI accelerated research and production, but it was not treated as a source of truth. Current facts were checked, assumptions were labelled, and recommendations were framed as tests where evidence is still incomplete." : "AI 用于加快研究和产出，但不被当作事实来源。当前事实经过核查，假设明确标注；证据不足的建议都写成下一步需要验证的测试。"}</p>
