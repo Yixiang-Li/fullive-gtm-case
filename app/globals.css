@@ -126,6 +126,13 @@ a { color: inherit; text-underline-offset: 3px; }
 .skill-note p + p { margin-top: 14px; color: #aca9a2; font-family: var(--sans); font-size: 13px; }
 .quality-list { display: grid; gap: 8px; width: min(880px, calc(100vw - 48px)); margin: 28px 0 40px 50%; transform: translateX(-50%); font-family: var(--sans); }
 .quality-list span { padding: 17px 20px; border-radius: 8px; background: var(--white); font-size: 14px; line-height: 1.4; }
+.copy-logic { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; width: min(880px, calc(100vw - 48px)); margin: 28px 0 40px 50%; transform: translateX(-50%); border-radius: 10px; overflow: hidden; background: var(--white); font-family: var(--sans); }
+.copy-logic section { min-height: 260px; padding: 25px 24px; }
+.copy-logic section + section { border-left: 1px solid #ddd9d0; }
+.copy-logic span { color: var(--orange); font-size: 11px; font-weight: 800; }
+.copy-logic h3 { margin: 11px 0 18px; font-size: 22px; }
+.copy-logic p { margin: 0; color: var(--muted); font-family: var(--serif); font-size: 15px; line-height: 1.48; }
+.copy-logic b { display: block; margin: 21px 0 6px; color: var(--ink); font-size: 10px; text-transform: uppercase; }
 .survey-module { margin-top: 22px; }
 .survey-card { min-height: 600px; padding: 34px 40px 38px; border-radius: 12px; background: var(--white); font-family: var(--sans); }
 .survey-progress { display: flex; justify-content: space-between; align-items: center; color: var(--muted); font-size: 12px; }
@@ -225,6 +232,9 @@ a { color: inherit; text-underline-offset: 3px; }
   .quality-list { width: calc(100vw - 40px); }
   .skill-note { padding: 28px 22px 30px; }
   .skill-note h3 { font-size: 25px; }
+  .copy-logic { grid-template-columns: 1fr; width: calc(100vw - 40px); }
+  .copy-logic section { min-height: auto; }
+  .copy-logic section + section { border-top: 1px solid #ddd9d0; border-left: 0; }
   .survey-card { min-height: 620px; padding: 26px 18px 28px; }
   .survey-question { margin-top: 38px; }
   .survey-question h3,

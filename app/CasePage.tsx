@@ -24,10 +24,10 @@ const competitors = [
     status: { en: "Pre-launch; launching soon", zh: "上市前；即将推出" },
     price: { en: "Not publicly shown", zh: "未公开价格" },
     positioning: { en: "An AI-powered sleep device that adjusts light, sound, scent and temperature to personalize the bedroom throughout the night.", zh: "通过 AI 在整夜调节灯光、声音、香氛和温度，实现卧室环境个性化的睡眠设备。" },
-    target: { en: "Consumers who want an effortless, drug-free alternative to wearables and more sleep data.", zh: "希望以低负担、非药物方式替代可穿戴设备和更多睡眠数据的消费者。" },
+    target: { en: "Consumers who want a low-effort, drug-free alternative to wearing a tracker or collecting more sleep data.", zh: "不想再佩戴追踪设备、也不想增加更多睡眠数据，希望用非药物方式改善睡眠的人。" },
     strength: { en: "The closest public product promise to Fullive's AI-powered, multisensory sleep-space concept.", zh: "在公开产品中，它与 Fullive“AI 协同多种感官调节睡眠环境”的设想最接近。" },
     weakness: { en: "The current site says 'launching soon' and does not show a public price. Availability and independent evidence remain unclear.", zh: "当前官网显示“即将推出”，且未公开售价；可用性与独立证据仍不明确。" },
-    insight: { en: "This suggests multisensory novelty may be difficult to own through messaging alone. Part 2 can test whether people value coordination, supporting evidence or ease of use most.", zh: "这说明，仅靠传播可能很难独占“多感官”新颖性。Part 2 可以测试消费者更看重协同体验、支持证据，还是易用性。" },
+    insight: { en: "This suggests multisensory novelty may be difficult to own through messaging alone. Part 2 can test whether coordination, evidence or ease of use matters most.", zh: "这说明“多感官”本身未必能成为独占卖点。Part 2 应验证用户最看重的是环境协同、效果依据，还是使用省心。" },
   },
   {
     name: "Naptick",
@@ -37,10 +37,10 @@ const competitors = [
     status: { en: "Pre-order; Batch 3 ships Aug 2026", zh: "预售；第 3 批预计 2026 年 8 月发货" },
     price: { en: "$349; app included", zh: "$349；App 包含在内" },
     positioning: { en: "A phone-free AI sleep coach with light therapy, 1,000+ soundscapes and live room sensing.", zh: "结合光疗、1,000 多种声音场景和实时房间感知的无手机 AI 睡眠教练。" },
-    target: { en: "Professionals, light sleepers and people whose racing thoughts or phone habits delay sleep.", zh: "因思绪过载或手机习惯而难以入睡的专业人士及浅眠人群。" },
-    strength: { en: "A clear bedside use case, understandable benefits and much lower adoption friction than a smart bed.", zh: "床头使用场景明确、利益点容易理解，采用门槛远低于智能床。" },
+    target: { en: "Professionals, light sleepers and people whose racing thoughts or phone habits delay sleep.", zh: "因思绪停不下来或刷手机拖延入睡的职场人和浅眠人群。" },
+    strength: { en: "A clear bedside use case, understandable benefits and much lower adoption friction than a smart bed.", zh: "床头使用场景明确、利益点容易理解，使用门槛远低于智能床。" },
     weakness: { en: "Its sensors primarily produce a room score and recommendations; public materials do not show autonomous sleep-stage intervention.", zh: "其传感器主要产生房间评分和建议；公开资料没有展示根据睡眠阶段自动干预。" },
-    insight: { en: "A useful research question is whether autonomous intervention feels meaningfully more valuable than coaching, recommendations and scheduled routines.", zh: "一个值得研究的问题是：与指导、建议和预设流程相比，自动干预是否会被消费者认为有明显更高的价值。" },
+    insight: { en: "A useful research question is whether autonomous intervention feels meaningfully more valuable than coaching, recommendations and scheduled routines.", zh: "需要验证：与睡眠指导、建议和预设流程相比，用户是否真会为“自动响应”多付钱。" },
   },
   {
     name: "Kimba",
@@ -50,8 +50,8 @@ const competitors = [
     status: { en: "Pre-order; shipping planned Jan 2027", zh: "预售；计划 2027 年 1 月发货" },
     price: { en: "$299 first-release six-month plan; $99 deposit", zh: "首发六个月计划 $299；预订支付 $99" },
     positioning: { en: "A real-time sleep scent system that reads signals and releases personalized scent at selected moments.", zh: "读取睡眠信号并在选定时机释放个性化香氛的实时睡眠系统。" },
-    target: { en: "Adults who struggle to fall or stay asleep and want an alternative to medication or passive trackers.", zh: "难以入睡或保持睡眠、希望替代药物或被动追踪器的成年人。" },
-    strength: { en: "The clearest benchmark for connecting built-in sensing, wearable data and responsive scent delivery.", zh: "在连接内置感知、可穿戴数据和响应式香氛释放方面最清晰的标杆。" },
+    target: { en: "Adults who struggle to fall or stay asleep and want an alternative to medication or passive trackers.", zh: "难以入睡或容易夜醒、希望少依赖药物或被动追踪器的成年人。" },
+    strength: { en: "The clearest benchmark for connecting built-in sensing, wearable data and responsive scent delivery.", zh: "在整合内置感知、可穿戴数据与响应式香氛释放方面，路径最清楚。" },
     weakness: { en: "It relies on one primary modality and recurring scent capsules; the current catalogue lists multiple reservation offers, while outcome claims remain largely company-reported.", zh: "主要依赖香氛这一种感官方式，并需要持续购买胶囊；当前页面存在多种预订方案，效果数据也主要来自公司自身。" },
     insight: { en: "Part 2 can test whether multisensory breadth raises perceived value or instead creates more safety and complexity concerns than a focused scent solution.", zh: "Part 2 可以测试：多感官范围会提升感知价值，还是会比单一香氛方案带来更多安全与复杂度顾虑。" },
   },
@@ -63,7 +63,7 @@ const competitors = [
     status: { en: "Available", zh: "已上市" },
     price: { en: "$2,999 list / $2,749 promo; Autopilot from $199/year", zh: "$2,999 标价 / $2,749 促销；Autopilot 每年 $199 起" },
     positioning: { en: "A premium mattress cover that tracks sleep and automatically adjusts temperature for each side of the bed.", zh: "追踪睡眠并为床的两侧自动调节温度的高端床垫套。" },
-    target: { en: "Affluent performance optimizers and couples with different thermal preferences.", zh: "高收入性能优化人群，以及温度偏好不同的伴侣用户。" },
+    target: { en: "Affluent performance optimizers and couples with different thermal preferences.", zh: "愿意为健康与状态投入的高收入人群，以及睡眠温度偏好不同的伴侣。" },
     strength: { en: "A mature commercial reference for sensing, personalization and automatic environmental intervention.", zh: "在感知、个性化和自动环境干预方面成熟的商业参考。" },
     weakness: { en: "High upfront cost, required first-year software and installation commitment; the main intervention is temperature.", zh: "前期成本高、首年必须订阅软件且安装投入较大；主要干预仍是温度。" },
     insight: { en: "Eight Sleep is a useful premium reference for automation and recurring value, although its mattress format and price make a direct comparison imperfect.", zh: "Eight Sleep 可以作为自动化和持续价值的高端参考，但其床垫形态与价格意味着两者并不适合直接比较。" },
@@ -72,14 +72,14 @@ const competitors = [
     name: "Hatch Restore 3",
     tab: "Hatch",
     url: "https://www.hatch.co/restore",
-    role: { en: "Bedside routine benchmark", zh: "床头流程标杆" },
+    role: { en: "Bedside sleep-device benchmark", zh: "床头睡眠设备标杆" },
     status: { en: "Available", zh: "已上市" },
     price: { en: "$169.99; 30 days of Hatch+ included", zh: "$169.99；包含 30 天 Hatch+" },
-    positioning: { en: "A smart sleep clock that helps users build gentle, phone-free bedtime and wake-up routines.", zh: "帮助用户建立温和、无手机睡前和起床流程的智能睡眠时钟。" },
-    target: { en: "Design-conscious mainstream consumers who value routine, calm and a gentle sunrise wake-up.", zh: "重视睡眠流程、平静体验和日出唤醒的设计敏感型大众消费者。" },
+    positioning: { en: "A smart sleep clock that helps users build gentle, phone-free bedtime and wake-up routines.", zh: "帮助用户建立不依赖手机的睡前与起床习惯的智能睡眠时钟。" },
+    target: { en: "Design-conscious mainstream consumers who value routine, calm and a gentle sunrise wake-up.", zh: "重视睡前习惯、安静体验和日出唤醒，同时在意产品设计的主流消费者。" },
     strength: { en: "Excellent consumer comprehension, polished hardware and broad North American availability.", zh: "消费者认知清晰、硬件成熟，并在北美广泛销售。" },
     weakness: { en: "Limited sensing and closed-loop adaptation; premium content can add subscription friction.", zh: "感知和闭环自适应有限；高级内容可能带来订阅阻力。" },
-    insight: { en: "Part 2 should test whether people initially classify Fullive as a bedside routine device, an AI wellness device or a more comprehensive sleep system.", zh: "Part 2 应测试消费者最初会把 Fullive 归类为床头流程设备、AI 健康设备，还是更完整的睡眠系统。" },
+    insight: { en: "Part 2 should test whether people initially classify Fullive as a bedside sleep device, an AI wellness device or a more comprehensive sleep system.", zh: "Part 2 应测试消费者第一反应会把 Fullive 归类为床头睡眠设备、AI 健康产品，还是更完整的睡眠系统。" },
   },
   {
     name: "Sleepme Chilipad 2.0",
@@ -89,7 +89,7 @@ const competitors = [
     status: { en: "Available", zh: "已上市" },
     price: { en: "From $1,599 single-zone; no subscription", zh: "单区 $1,599 起；无需订阅" },
     positioning: { en: "A premium water-powered mattress cover with automatic temperature schedules and no subscription.", zh: "通过水循环执行自动温度计划、无需订阅的高端床垫套。" },
-    target: { en: "Hot sleepers and couples who want active temperature control without mandatory tracking or recurring fees.", zh: "希望主动控温但不想被强制追踪或持续付费的怕热人群及伴侣用户。" },
+    target: { en: "Hot sleepers and couples who want active temperature control without mandatory tracking or recurring fees.", zh: "怕热、需要主动控温，又不想被强制追踪或持续付费的人和伴侣用户。" },
     strength: { en: "A credible mid-premium alternative that makes ownership, offline control and no subscription central to the offer.", zh: "可信的中高端替代方案，把设备所有权、离线控制和无订阅作为核心卖点。" },
     weakness: { en: "Personalization is schedule-led rather than a rich biometric loop; mattress installation still creates commitment.", zh: "个性化主要依靠预设计划而非丰富的生物识别闭环；床垫安装仍带来较高投入。" },
     insight: { en: "Its no-subscription offer suggests that acceptance of refills or software fees should be tested explicitly rather than assumed.", zh: "其无订阅方案说明，消费者是否接受耗材或软件持续费用，需要被明确测试，而不应预设。" },
@@ -102,7 +102,7 @@ const competitors = [
     status: { en: "Available", zh: "已上市" },
     price: { en: "$368 current promo / $448 MSRP; first year of SmartVibes included", zh: "当前促销 $368 / MSRP $448；包含首年 SmartVibes" },
     positioning: { en: "A wearable that uses personalized vibrations and AI timing to support calm and prevent unwanted wake-ups.", zh: "通过个性化震动和 AI 时机控制来支持平静状态、减少不必要醒来的可穿戴设备。" },
-    target: { en: "Stressed, overstimulated wellness consumers who want active support rather than passive tracking.", zh: "压力大、过度兴奋，希望获得主动帮助而非被动追踪的健康科技消费者。" },
+    target: { en: "Stressed, overstimulated wellness consumers who want active support rather than passive tracking.", zh: "压力大、难以放松，希望获得主动帮助而不只是被动记录的健康科技消费者。" },
     strength: { en: "A commercially available example of AI personalization paired with active, real-time vibration; the company presents wake-up prevention as a benefit.", zh: "已商业化的可穿戴干预标杆：AI 个性化与实时震动干预结合，品牌将“减少不必要醒来”作为卖点。" },
     weakness: { en: "Users must wear and charge a device; many efficacy figures are company-reported and require source-level scrutiny.", zh: "用户必须佩戴和充电；许多效果数字来自公司自身，需要进一步核验原始研究。" },
     insight: { en: "Apollo is a useful reference for explaining when AI-triggered action occurs. Whether ambient intervention feels preferable to a wearable remains a research question.", zh: "Apollo 是解释 AI 何时触发行动的有用参考；环境式干预是否比可穿戴方式更受欢迎，仍需研究。" },
@@ -115,10 +115,10 @@ const competitors = [
     status: { en: "Available", zh: "已上市" },
     price: { en: "Consumer free/premium access; B2B services are quote-based", zh: "消费者免费/高级版本；B2B 服务按项目报价" },
     positioning: { en: "A sleep-intelligence layer offering non-contact consumer measurement, APIs, research and product validation.", zh: "提供非接触式消费者测量、API、研究和产品验证的睡眠智能层。" },
-    target: { en: "Consumers seeking sleep insight and companies that need measurement or validation for product claims.", zh: "需要睡眠洞察的消费者，以及需要测量或功效验证的企业。" },
+    target: { en: "Consumers seeking sleep insight and companies that need measurement or validation for product claims.", zh: "希望了解自身睡眠状况的消费者，以及需要测量或验证产品主张的企业。" },
     strength: { en: "Research capability, non-contact measurement and infrastructure for validating sleep products.", zh: "拥有研究能力、非接触式测量，以及验证睡眠产品的基础设施。" },
     weakness: { en: "It measures and advises but does not own a multisensory intervention device.", zh: "主要负责测量和建议，并不拥有多感官干预设备。" },
-    insight: { en: "Sleep.ai could be explored as a measurement or validation partner. Part 2 should first test how much proof and sleep data influence purchase confidence.", zh: "Sleep.ai 可以作为潜在的测量或验证伙伴进一步探索。Part 2 应先测试证据与睡眠数据在多大程度上影响购买信心。" },
+    insight: { en: "Sleep.ai could be explored as a measurement or validation partner. Part 2 should first test how much proof and sleep data influence purchase confidence.", zh: "Sleep.ai 值得作为测量或验证伙伴进一步了解。Part 2 需要先确认：效果依据和睡眠数据对购买信心到底有多大影响。" },
   },
 ];
 
@@ -169,7 +169,7 @@ function PartOne({ language }: { language: Language }) {
       </section>
 
       <article className="article-body">
-        <p>{language === "en" ? "Sleep technology already includes trackers, bedside routines and temperature-control products. The narrower intersection of AI decision-making, physical hardware and active sleep intervention appears less established: several of the closest concepts are still in pre-order or provide limited independent evidence." : "睡眠科技市场已经存在追踪器、床头流程和温控产品。但在更窄的“AI 决策 + 实体硬件 + 主动睡眠干预”交叉领域，市场似乎仍处于较早阶段：若干最接近的产品仍在预售，独立证据也较有限。"}</p>
+        <p>{language === "en" ? "Sleep technology already includes trackers, smart sleep clocks and temperature-control products. The narrower intersection of AI decision-making, physical hardware and active sleep intervention appears less established: several of the closest concepts are still in pre-order or provide limited independent evidence." : "睡眠科技市场已经有睡眠追踪器、智能睡眠时钟和主动温控设备。但在“AI 决策 + 实体硬件 + 主动干预”这个更窄的交叉领域，市场似乎仍处于早期：目前最接近的几款产品，有的还在预售，有的独立证据仍然有限。"}</p>
         <p>{language === "en" ? "The eight products below were selected because each can influence how a North American customer understands, values or compares Fullive. Every profile uses the same six fields requested in the case: positioning, target customers, pricing, key strength, key weakness and GTM insight." : "以下八个产品之所以入选，是因为它们都会影响北美消费者如何理解、评价或比较 Fullive。每个档案都使用题目要求的六个统一字段：定位、目标用户、价格、核心优势、核心劣势和 GTM 启示。"}</p>
 
         <h2>{language === "en" ? "Competitive landscape" : "竞争格局"}</h2>
@@ -270,7 +270,7 @@ const surveyOptions = {
     { id: "learn", en: "Learn what conditions work best for me", zh: "学习最适合我的环境条件" },
     { id: "detect", en: "Detect patterns that may disrupt sleep", zh: "发现可能干扰睡眠的规律" },
     { id: "explain", en: "Explain changes in my sleep", zh: "解释睡眠变化" },
-    { id: "coach", en: "Recommend routines or actions", zh: "推荐睡眠流程或行动" },
+    { id: "coach", en: "Recommend bedtime habits or actions", zh: "推荐睡前习惯或具体行动" },
     { id: "none", en: "I would not want AI involved", zh: "我不希望 AI 参与" },
   ],
   valueDrivers: [
@@ -338,7 +338,7 @@ const surveyOptions = {
   ],
   occupation: [
     { id: "student", en: "Student", zh: "学生" },
-    { id: "professional", en: "Professional / individual contributor", zh: "专业人士 / 独立贡献者" },
+    { id: "professional", en: "Professional / individual contributor", zh: "职场专业人士 / 非管理岗位" },
     { id: "manager", en: "Manager or executive", zh: "管理者或高管" },
     { id: "founder", en: "Founder or self-employed", zh: "创业者或自由职业者" },
     { id: "caregiver", en: "Caregiver / full-time parent", zh: "照护者 / 全职家长" },
@@ -444,14 +444,14 @@ function PartTwo({ language }: { language: Language }) {
       </section>
 
       <article className="article-body">
-        <p>{language === "en" ? "A short 0-to-1 survey designed to identify who feels the problem, where poor sleep shows up in daily life, what role AI should play, what earns a premium and what may prevent adoption." : "一份面向 0→1 阶段的短问卷：识别谁真正感到睡眠问题、问题如何影响日常生活、AI 应承担什么作用、什么值得溢价，以及什么会阻碍采用。"}</p>
+        <p>{language === "en" ? "A short, early-stage survey to identify who feels the problem, where poor sleep shows up in daily life, what role AI should play, what earns a premium and what may prevent adoption." : "这是一份面向早期验证的短问卷：了解谁真正受睡眠问题困扰，睡眠不佳怎样影响日常生活，用户希望 AI 做什么，哪些价值值得多付钱，以及什么会让人放弃考虑。"}</p>
         <div className="research-brief"><span><b>{language === "en" ? "Audience" : "对象"}</b>{language === "en" ? "North American adults with occasional or frequent sleep difficulty" : "偶尔或经常存在睡眠困扰的北美成年人"}</span><span><b>{language === "en" ? "Length" : "长度"}</b>{language === "en" ? "9 screens · about 4 minutes" : "9 个屏幕 · 约 4 分钟"}</span><span><b>{language === "en" ? "Output" : "输出"}</b>{language === "en" ? "Behavioral segments, message scenes, price signals and objections" : "行为分群、营销场景、价格信号与顾虑"}</span></div>
 
         <h2>{language === "en" ? "Why this survey" : "问卷思路"}</h2>
-        <p>{language === "en" ? "The first three screens establish the person’s sleep problem, the cost it creates in daily life and what they already spend to address it. The concept screens then test which part of Fullive is understood, what users want AI to do and what deserves a premium. The final screens translate interest into a price range, confidence requirement and adoption concern. Together, the results can identify early-user hypotheses and message scenes for the landing page without turning stated preferences into product claims." : "前 3 屏先确认受访者的睡眠问题、它在日常生活中造成的影响，以及他们已经为此付出的成本；随后才测试 Fullive 哪一部分被理解、用户希望 AI 做什么、什么值得溢价。最后用价格区间、购买信心和顾虑把兴趣转化为可执行的判断。这样既能形成早期用户假设和落地页场景，也不会把受访者的偏好直接写成产品功效。"}</p>
+        <p>{language === "en" ? "The first three screens establish the person’s sleep problem, the cost it creates in daily life and what they already spend to address it. The concept screens then test which part of Fullive is understood, what users want AI to do and what deserves a premium. The final screens translate interest into a price range, confidence requirement and adoption concern. Together, the results can identify early-user hypotheses and message scenes for the landing page without turning stated preferences into product claims." : "前 3 屏先了解受访者面临什么睡眠问题、它如何影响生活，以及他们已经为改善睡眠投入了什么。随后才介绍 Fullive，测试用户是否看懂产品、希望 AI 发挥什么作用，以及哪些价值值得溢价。最后用价格、信心和顾虑把“有兴趣”拆成可行动的判断。结果可用于形成早期用户假设和落地页场景，但不会把受访者偏好写成产品功效。"}</p>
 
         <h2>{language === "en" ? "Interactive survey" : "交互式问卷"}</h2>
-        <p>{language === "en" ? "Questions about existing behavior and life impact come before the Fullive concept. Try the complete flow below; this prototype does not transmit or store responses." : "现有行为与生活影响都在 Fullive 概念出现之前询问。下方可体验完整流程；此原型不会传输或保存回答。"}</p>
+        <p>{language === "en" ? "Questions about existing behavior and life impact come before the Fullive concept. Try the complete flow below; this prototype does not transmit or store responses." : "问卷先了解受访者现在的做法和生活影响，再展示 Fullive 概念。你可以在下方体验完整流程；本原型不会上传或保存回答。"}</p>
         <div className="wide-module survey-module"><SurveyExperience language={language} /><p className="module-caption">{language === "en" ? "Past spending provides a behavioral affordability signal; income is optional for segmentation and is not used to assume interest." : "过去真实购买过什么，比单问收入更能反映支付能力。收入仅用于可选分组，不能据此推断购买兴趣。"}</p></div>
 
         <h2>{language === "en" ? "From responses to decisions" : "从回答到决策"}</h2>
@@ -491,7 +491,7 @@ const activationCandidates: ActivationCandidate[] = [
     audience: { en: "Adults with sleep concerns, including couples and midlife women", zh: "有睡眠困扰的成年人，包括伴侣用户与中年女性" },
     fit: { en: "Direct relevance to bedtime routines, sleep concerns and partner context", zh: "与睡前流程、睡眠困扰和伴侣场景直接相关" },
     rationale: { en: "Makes the first message more credible and can pressure-test safety and claim language before scaled creator spend.", zh: "可在扩大创作者投放前提升内容可信度，并提前检查安全性与宣传措辞是否稳妥。" },
-    format: { en: "A 30–45 second “what this device is / is not” explainer, followed by a waitlist link.", zh: "一条 30–45 秒的“这款产品是什么 / 不是什么”解释短片，附候补名单链接。" },
+    format: { en: "A 30–45 second “what this device is / is not” explainer, followed by a product-page link.", zh: "一条 30–45 秒的“这款设备是什么 / 不是什么”解释短片，链接到产品页。" },
     tier: { en: "Priority A · credibility and learning", zh: "优先级 A · 可信度与学习" },
     caution: { en: "Use paid education or advisory scope; do not ask for medical endorsement or efficacy claims.", zh: "合作范围应限定为付费科普或顾问服务，不要求对方提供医疗背书或效果承诺。" },
   },
@@ -504,9 +504,9 @@ const activationCandidates: ActivationCandidate[] = [
     audience: { en: "At-home yoga and meditation users seeking calmer, repeatable routines", zh: "寻求平静、可重复流程的居家瑜伽与冥想用户" },
     fit: { en: "Yin yoga and meditation provide a natural pre-bed moment without framing Fullive as a medical solution", zh: "阴瑜伽与冥想提供自然的睡前时刻，无需把 Fullive 表述为医疗解决方案" },
     rationale: { en: "A creator-led evening ritual tests whether a repeatable routine, rather than AI novelty, earns attention.", zh: "由创作者带领的晚间流程可以测试：获得注意力的是可重复习惯，而非 AI 新颖性。" },
-    format: { en: "A vertical “after Yin” bedroom-reset Reel / Short, with one simple waitlist CTA.", zh: "一条纵向“阴瑜伽之后的卧室重置”Reel / Short，配一个简单候补 CTA。" },
+    format: { en: "A vertical “after Yin” bedroom-reset Reel / Short, with one simple product-page CTA.", zh: "一条纵向“阴瑜伽之后，如何让卧室安静下来”的 Reel / Short，配一个明确的产品页 CTA。" },
     tier: { en: "Priority A · routine activation", zh: "优先级 A · 流程激活" },
-    caution: { en: "Keep the content to a wind-down ritual and waitlist action; do not imply yoga or hardware treats insomnia.", zh: "内容应聚焦睡前放松流程和候补名单行动；不暗示瑜伽或硬件可以治疗失眠。" },
+    caution: { en: "Keep the content to a wind-down ritual and product exploration; do not imply yoga or hardware treats insomnia.", zh: "内容应聚焦睡前放松和产品了解；不暗示瑜伽或硬件可以治疗失眠。" },
   },
   {
     name: "Cassey Ho / Blogilates",
@@ -517,7 +517,7 @@ const activationCandidates: ActivationCandidate[] = [
     audience: { en: "Women who follow home fitness, self-care routines and creator-led consumer products", zh: "关注居家健身、自我照护流程和创作者消费产品的女性" },
     fit: { en: "Tests whether a recovery-to-bedtime story travels beyond the existing sleep-tech audience.", zh: "可测试“从训练恢复到睡前放松”这一内容角度，能否吸引睡眠科技圈之外的人群。" },
     rationale: { en: "Her established multi-platform, short-form presence and product-aware community make her a strong discovery test, not an assumed conversion bet.", zh: "其成熟的跨平台短内容能力和对产品熟悉的社群，使她适合作为发现阶段测试，而非预设的转化押注。" },
-    format: { en: "A post-workout, 20-second “how I switch off” TikTok / Reel with a creator-specific waitlist URL.", zh: "一条训练后 20 秒“我如何切换到休息状态”的 TikTok / Reel，使用专属候补链接。" },
+    format: { en: "A post-workout, 20-second “how I switch off” TikTok / Reel with a creator-specific product URL.", zh: "一条训练后 20 秒“我如何切换到休息状态”的 TikTok / Reel，使用创作者专属产品页链接。" },
     tier: { en: "Priority B · scale discovery option", zh: "优先级 B · 规模化发现备选" },
     caution: { en: "Likely expensive and broad. Confirm current brand exclusions and do not use body, appearance or performance claims.", zh: "预计成本较高且受众广。须确认当前品牌排他关系，且不能使用身材、外貌或运动表现主张。" },
   },
@@ -530,7 +530,7 @@ const activationCandidates: ActivationCandidate[] = [
     audience: { en: "Fitness-minded adults, coaches and people who connect recovery with daily performance", zh: "重视健身的成年人、教练，以及将恢复与日常表现连接的人群" },
     fit: { en: "Extends Fullive beyond sleep content into the recovery behavior people already understand and pay for.", zh: "让 Fullive 从单纯睡眠内容延伸到用户已经理解并愿意投入的恢复行为。" },
     rationale: { en: "Useful for testing a recovery angle with people who use training routines as a health entry point.", zh: "适合面向通过健身管理健康的人群，测试“训练后的恢复与睡眠”这一内容角度。" },
-    format: { en: "A short recovery myth / routine clip that invites viewers to a sleep-environment waitlist test.", zh: "一条短恢复误区 / 流程视频，邀请观众参与睡眠环境候补测试。" },
+    format: { en: "A short recovery myth / routine clip that invites viewers to explore the sleep environment.", zh: "一条关于恢复误区或日常习惯的短视频，引导观众了解这套睡眠环境。" },
     tier: { en: "Priority B · performance test", zh: "优先级 B · 表现测试" },
     caution: { en: "Avoid athlete-performance promises; frame as an environment and routine exploration.", zh: "避免运动表现承诺；应表述为睡眠环境与流程的探索。" },
   },
@@ -593,9 +593,9 @@ const activationCandidates: ActivationCandidate[] = [
     url: "https://www.sleepisaskill.com/about",
     platform: { en: "Instagram Reels, TikTok, YouTube, podcast and newsletter", zh: "Instagram Reels、TikTok、YouTube、播客与邮件内容" },
     audience: { en: "People actively seeking practical sleep education, behavior change and sleep technology", zh: "主动寻求实用睡眠教育、行为改变和睡眠科技的人群" },
-    fit: { en: "Closest creator-led route to test an AI-and-hardware sleep narrative with an already sleep-literate audience", zh: "最适合面向已有睡眠知识的受众，测试“AI + 硬件改善睡眠环境”这一信息角度" },
+    fit: { en: "Closest creator-led route to test an AI-and-hardware sleep narrative with an already sleep-literate audience", zh: "最适合面向已经关注睡眠问题的受众，测试“AI + 硬件如何改善睡眠环境”这一表达" },
     rationale: { en: "Her public profile connects sleep technology, accountability and behavior change, giving Fullive a clear, sleep-literate short-form test.", zh: "其公开资料连接睡眠科技、陪伴式改变和行为改变，为 Fullive 提供一个清晰、具备睡眠认知的短视频测试场。" },
-    format: { en: "A 30-second “is your bedroom part of your sleep system?” Reel / TikTok, followed by an audience poll and waitlist link.", zh: "先发布一条 30 秒 Reel / TikTok，讨论“卧室环境是否也是睡眠管理的一部分”，再通过投票和候补名单链接收集反馈。" },
+    format: { en: "A 30-second “is your bedroom part of your sleep system?” Reel / TikTok, followed by an audience poll and product-page link.", zh: "先发布一条 30 秒 Reel / TikTok，讨论“卧室环境是否也是睡眠管理的一部分”，再通过投票和产品页链接收集反馈。" },
     tier: { en: "Priority A · direct KOL test", zh: "优先级 A · 直接 KOL 测试" },
     caution: { en: "Confirm existing hardware or competing sleep-brand relationships before proposing a paid format.", zh: "提出付费合作前，需确认其现有硬件或竞品睡眠品牌合作关系。" },
   },
@@ -641,15 +641,15 @@ function CandidateExplorer({ language }: { language: Language }) {
 const priorityPlans = [
   {
     name: "Mollie Eastman / Sleep Is A Skill",
-    angle: { en: "A paid sleep-education collaboration: test whether a clearer explanation of AI-guided bedroom intervention earns qualified waitlist interest from a sleep-literate audience.", zh: "以付费睡眠教育合作切入：测试对 AI 引导卧室干预的清晰解释，能否在已有睡眠认知的受众中获得高质量候补兴趣。" },
-    weekOne: { en: "Prepare a creator brief with the concept, claim boundaries, a proposed podcast / short-form angle and a single waitlist CTA. Confirm current brand relationships before outreach.", zh: "准备一页合作简报，说明产品概念、宣传边界、播客 / 短视频方向和唯一的候补名单入口；外联前确认对方当前的品牌合作。" },
-    weekTwo: { en: "Propose one small paid pilot, such as a sleep-environment education segment or an audience poll, and track qualified waitlist conversion rather than views alone.", zh: "提出一个小型付费试点，如睡眠环境教育片段或受众投票，并跟踪高质量候补转化，而不只看播放量。" },
+    angle: { en: "A paid sleep-education collaboration: test whether a clearer explanation of AI-guided bedroom intervention earns qualified product interest from a sleep-literate audience.", zh: "以付费睡眠教育合作切入：测试清楚解释 AI 如何介入卧室环境，能否在已经关注睡眠的受众中带来有效产品兴趣。" },
+    weekOne: { en: "Prepare a one-page creator brief with the concept, claim boundaries, a proposed podcast / short-form angle and one product-page CTA. Confirm current brand relationships before outreach.", zh: "准备一页合作简报，说明产品概念、宣传边界、播客 / 短视频方向和唯一的产品页 CTA；外联前确认对方当前的品牌合作。" },
+    weekTwo: { en: "Propose one small paid pilot, such as a sleep-environment education segment or an audience poll, and track qualified product-page actions rather than views alone.", zh: "提出一个小型付费试点，例如睡眠环境教育片段或受众投票，并跟踪有效的产品页行动，而不只看播放量。" },
   },
   {
     name: "Yoga With Kassandra",
-    angle: { en: "A 7-night wind-down ritual: pair an existing Yin / meditation moment with a simple waitlist test for a more personalized bedroom routine.", zh: "一个 7 晚睡前放松流程：结合已有阴瑜伽 / 冥想时刻，测试用户对更个性化卧室流程的候补兴趣。" },
-    weekOne: { en: "Identify two relevant existing formats, create a concise creator brief and define a single waitlist landing-page action with UTM tracking.", zh: "选定两个相关的既有内容形式，制作简明创作者 brief，并定义带 UTM 追踪的单一候补名单行动。" },
-    weekTwo: { en: "Ask for one small, paid pilot format rather than a broad sponsorship; agree on creative guardrails and measure qualified waitlist conversion.", zh: "争取一个小型付费试点，而非大范围赞助；明确创意边界，并衡量高质量候补转化。" },
+    angle: { en: "A 7-night wind-down ritual: pair an existing Yin / meditation moment with a simple product-page test for a more personalized bedroom routine.", zh: "设计一个 7 晚睡前放松主题：把已有的阴瑜伽 / 冥想时刻与产品页连接起来，测试用户是否对更个性化的睡眠环境感兴趣。" },
+    weekOne: { en: "Identify two relevant existing formats, create a concise creator brief and define one UTM-tagged product-page action.", zh: "选定两个相关的既有内容形式，制作简明创作者 brief，并定义一个带 UTM 追踪的产品页行动。" },
+    weekTwo: { en: "Ask for one small, paid pilot rather than a broad sponsorship; agree on creative guardrails and measure qualified product-page actions.", zh: "争取一个小型付费试点，而非大范围赞助；明确创意边界，并衡量有效的产品页行动。" },
   },
   {
     name: "The Mindful Movement",
@@ -686,15 +686,15 @@ function PartThree({ language }: { language: Language }) {
       </section>
 
       <article className="article-body">
-        <p>{language === "en" ? "This is a creator list, not a general partnership list. The launch question is whether a premium AI sleep device can earn attention in a real consumer moment: winding down, recovering after training, ending a workday or creating a calmer bedroom routine. Direct sleep creators establish relevance; adjacent wellness creators test whether those moments travel to a broader audience." : "这是一份创作者名单，不是泛合作伙伴名单。首发要回答的是：高端 AI 睡眠设备能否在真实的消费者时刻获得注意力，例如睡前放松、训练后恢复、结束工作日或打造更平静的卧室流程。直接睡眠创作者建立相关性；相邻健康创作者测试这些时刻能否扩展到更广泛人群。"}</p>
+        <p>{language === "en" ? "This is a creator list, not a general partnership list. The launch question is whether a premium AI sleep device can earn attention in a real consumer moment: winding down, recovering after training, ending a workday or creating a calmer bedroom routine. Direct sleep creators establish relevance; adjacent wellness creators test whether those moments travel to a broader audience." : "这是一份创作者名单，而不是泛泛的合作伙伴清单。首发要验证的是：高端 AI 睡眠设备能否在真实生活时刻引起注意，例如睡前放松、训练后的恢复、结束工作日，或让卧室安静下来。睡眠垂类创作者先证明相关性，相邻的健康创作者再测试这些场景能否触达更广的人群。"}</p>
 
         <h2>{language === "en" ? "How the list was screened" : "如何筛选名单"}</h2>
-        <p>{language === "en" ? "All ten candidates are individual creators or creator-led media brands. A candidate stays on the list only when there is a believable short-video format, a recognisable audience moment and a public path to verify current content and commercial conflicts. Reach is a secondary filter: in this stage, a clean learning test is more useful than a large but poorly matched audience." : "10 个候选对象均为个人创作者或由创作者主导的媒体品牌。入选需要同时满足三点：能自然产出短视频、受众存在明确的睡前或恢复场景，并且可以通过公开信息核查近期内容和竞品合作。现阶段粉丝规模不是首要标准；小而匹配的测试，比受众庞大但不精准的合作更有价值。"}</p>
+        <p>{language === "en" ? "All ten candidates are individual creators or creator-led media brands. A candidate stays on the list only when there is a believable short-video format, a recognisable audience moment and a public path to verify current content and commercial conflicts. Reach is a secondary filter: in this stage, a clean learning test is more useful than a large but poorly matched audience." : "10 个候选对象均为个人创作者或创作者主导的媒体品牌。要入选，必须同时满足三点：能自然地做短视频、受众确实存在睡前或恢复场景，并能通过公开信息核查近期内容和竞品合作。现阶段粉丝量不是第一标准；与其触达很大但不匹配的人群，不如先做一次干净、可比较的小测试。"}</p>
         <div className="research-brief"><span><b>{language === "en" ? "1. Audience + moment · 35%" : "1. 受众与场景 · 35%"}</b>{language === "en" ? "Does the audience already care about a credible evening, recovery or routine problem?" : "受众是否已经关心睡前放松、训练恢复或作息管理？"}</span><span><b>{language === "en" ? "2. Native short-form · 25%" : "2. 短视频原生性 · 25%"}</b>{language === "en" ? "Can the creator make a 15–45 second idea feel native to their feed?" : "15–45 秒的内容能否自然融入创作者现有风格？"}</span><span><b>{language === "en" ? "3. Claims + conflict · 25%" : "3. 宣传与冲突 · 25%"}</b>{language === "en" ? "Can competitor ties, claim limits and public contact be checked before outreach?" : "外联前能否核查竞品合作、宣传边界和公开联系方式？"}</span></div>
         <p className="source-note">{language === "en" ? "The remaining 15% is brand safety and practical reachability. These weights allocate learning capacity, not media budget or follower value." : "剩余 15% 考虑品牌安全和实际可接触性。这些权重用于分配学习资源，而不是预算或粉丝价值。"}</p>
 
         <h2>{language === "en" ? "Short-form first, then depth" : "短视频优先，再补充深度内容"}</h2>
-        <p><strong>{language === "en" ? "TikTok and Instagram Reels." : "TikTok 与 Instagram Reels。"}</strong> {language === "en" ? "Use the same core creator idea to test a single consumer scene and language hook. The action is a tagged waitlist visit or an in-story poll; views are a diagnostic, not the decision." : "用同一个核心创意测试一个消费者场景与信息钩子。行动是带标记的候补名单访问或 Story 投票；播放量是诊断信息，不是决策依据。"}</p>
+        <p><strong>{language === "en" ? "TikTok and Instagram Reels." : "TikTok 与 Instagram Reels。"}</strong> {language === "en" ? "Use the same core creator idea to test a single consumer scene and language hook. The action is a tagged product-page visit or an in-story poll; views are a diagnostic, not the decision." : "用同一个核心创意测试一个消费者场景与信息钩子。行动是带标记的产品页访问或 Story 投票；播放量是诊断信息，不是决策依据。"}</p>
         <p><strong>{language === "en" ? "YouTube / Shorts." : "YouTube / Shorts。"}</strong> {language === "en" ? "Use Shorts for the same discovery test. Only the strongest short-form message earns a longer creator explanation or routine integration, where a considered hardware purchase can be understood." : "用 Shorts 做相同的发现测试。只有表现最强的短视频信息，才值得获得更长的创作者解释或流程整合，让用户理解需要认真考虑的硬件购买。"}</p>
         <p><strong>{language === "en" ? "X." : "X。"}</strong> {language === "en" ? "Keep it out of the first paid creator wave. It can support expert listening and public conversation, but it is not the primary consumer short-video format for this launch test." : "不进入首轮付费创作者测试。它可用于专家倾听和公开讨论，但不是本次上线测试的主要消费者短视频形式。"}</p>
 
@@ -703,12 +703,12 @@ function PartThree({ language }: { language: Language }) {
         <CandidateExplorer language={language} />
 
         <h2>{language === "en" ? "Top 3 to prioritize" : "优先推进的 3 个对象"}</h2>
-        <p>{language === "en" ? "The first wave compares three deliberately different routes using a comparable short-form brief: a direct sleep KOL, a wind-down routine creator and a mindfulness creator. This is a learning portfolio, not a claim that any one audience will win. Fitness scale is kept for phase two, after the first wave indicates whether recovery is a strong purchase driver." : "第一轮使用同一套短视频 brief，对比三条有意拉开的路径：睡眠垂类 KOL、睡前流程创作者和正念创作者。这是一组学习组合，并不预设哪类受众一定胜出。健身类的大规模触达留到第二阶段，先由首轮判断“恢复”是否真是强购买驱动。"}</p>
+        <p>{language === "en" ? "The first wave compares three deliberately different routes using a comparable short-form brief: a direct sleep KOL, a wind-down routine creator and a mindfulness creator. This is a learning portfolio, not a claim that any one audience will win. Fitness scale is kept for phase two, after the first wave indicates whether recovery is a strong purchase driver." : "第一轮用同一套短视频 brief，对比三条有意拉开的路径：睡眠垂类 KOL、睡前流程创作者和正念创作者。这是一组用于学习的组合，并不预设哪类人群一定胜出。健身类的大规模触达留到第二阶段，等首轮先验证“恢复”是不是强购买动机。"}</p>
         <PriorityPlan language={language} />
 
         <h2>{language === "en" ? "Verification and measurement" : "验证与衡量"}</h2>
         <p><strong>{language === "en" ? "Verification before outreach." : "外联前验证。"}</strong> {language === "en" ? "Confirm active North American audience relevance from recent content, review paid-partnership and competitor disclosures, and use only public business or partnership channels. Do not infer reach, health credentials or commercial availability from follower counts alone. For example, Huberman Lab is excluded after its " : "从近期内容确认北美受众相关性，检查付费合作与竞品披露，并仅使用公开的商务或合作渠道。不能只凭粉丝数推断触达、健康资质或商业可合作性。例如，Huberman Lab 因其 "}<a href="https://www.hubermanlab.com/sponsors" target="_blank" rel="noreferrer">{language === "en" ? "official sponsor page" : "官方赞助页"}</a>{language === "en" ? " lists Eight Sleep." : " 列有 Eight Sleep 而被排除。"}</p>
-        <p><strong>{language === "en" ? "Measure learning, not vanity reach." : "看有效反馈，不只看播放量。"}</strong> {language === "en" ? "For each creator, use a unique landing-page URL and track qualified waitlist conversion, completion rate, saves / comments that reveal language, and cost per qualified signup if content is paid. A high-view video without qualified intent does not advance the launch decision." : "为每位创作者设置专属落地页链接，跟踪候补名单转化率、问卷完成率、能反映真实需求的收藏与评论，以及付费合作的单个有效报名成本。只有播放量、没有真实购买意向，不能作为扩大投放的依据。"}</p>
+        <p><strong>{language === "en" ? "Measure learning, not vanity reach." : "看有效反馈，不只看播放量。"}</strong> {language === "en" ? "For each creator, use a unique landing-page URL and track qualified product-page actions, completion rate, saves / comments that reveal language, and cost per qualified action if content is paid. A high-view video without qualified intent does not advance the launch decision." : "为每位创作者设置专属产品页链接，跟踪有效页面行动、问卷完成率、能反映真实需求的收藏与评论，以及付费合作的单个有效行动成本。只有播放量、没有真实购买意向，不能作为扩大投放的依据。"}</p>
 
         <h2>{language === "en" ? "Sources" : "来源"}</h2>
         <p className="sources-copy">{language === "en" ? "Candidate facts were checked against current primary sources: " : "候选对象的关键信息均通过当前第一方来源核验："}{activationCandidates.map((item, index) => <span key={item.name}><a href={item.url} target="_blank" rel="noreferrer">{item.name}</a>{index < activationCandidates.length - 1 ? ", " : "."}</span>)}</p>
@@ -727,7 +727,7 @@ function PurchaseModal({ language, onClose }: { language: Language; onClose: () 
       <button className="modal-close" type="button" onClick={onClose} aria-label={isEn ? "Close" : "关闭"}>×</button>
       {complete ? <div className="purchase-success"><span>FULLIVE ONE</span><h2>{isEn ? "Your night starts here." : "你的夜晚，从这里开始。"}</h2><p>{isEn ? "This launch prototype has modeled a completed order. No payment or personal information was collected." : "此发布原型已模拟完成订单，未收集付款或个人信息。"}</p><button type="button" onClick={onClose}>{isEn ? "Continue exploring" : "继续浏览"}</button></div> : <>
         <p className="modal-eyebrow">{isEn ? "BUY FULLIVE ONE" : "购买 FULLIVE ONE"}</p>
-        <div className="purchase-layout"><img src="/fullive/fullive-system-macro-v2.png" alt="Fullive One" /><div><h2>{isEn ? "Bring the night into rhythm." : "让卧室，开始懂你。"}</h2><p>{isEn ? "Free shipping · 60-night home trial" : "免费配送 · 60 晚居家试用"}</p><fieldset><legend>{isEn ? "Finish" : "外观颜色"}</legend><div className="finish-options"><button type="button" className={finish === "pearl" ? "active" : ""} onClick={() => setFinish("pearl")}><i className="pearl" />{isEn ? "Pearl" : "珍珠白"}</button><button type="button" className={finish === "graphite" ? "active" : ""} onClick={() => setFinish("graphite")}><i className="graphite" />{isEn ? "Graphite" : "石墨黑"}</button></div></fieldset><ul><li>{isEn ? "Fullive One sleep-space device" : "Fullive One 智能睡眠设备"}</li><li>{isEn ? "Three scent capsules" : "三枚香氛胶囊"}</li><li>{isEn ? "Fullive app and Bio-OS personalization" : "Fullive App 及 Bio-OS 个性化服务"}</li><li>{isEn ? "Two-year limited warranty" : "两年有限保修"}</li></ul><button className="buy-submit" type="button" onClick={() => setComplete(true)}>{isEn ? "Add to bag" : "加入购物袋"}</button><small>{isEn ? "Prototype checkout — no payment is processed." : "这是演示流程，不会产生真实付款。"}</small></div></div>
+        <div className="purchase-layout"><img src="/fullive/fullive-system-macro-v2.png" alt="Fullive One" /><div><h2>{isEn ? "Bring the night into rhythm." : "让卧室顺着你的节奏安静下来。"}</h2><p>{isEn ? "Free shipping · 60-night home trial" : "免费配送 · 60 晚居家试用"}</p><fieldset><legend>{isEn ? "Finish" : "外观"}</legend><div className="finish-options"><button type="button" className={finish === "pearl" ? "active" : ""} onClick={() => setFinish("pearl")}><i className="pearl" />{isEn ? "Pearl" : "珍珠白"}</button><button type="button" className={finish === "graphite" ? "active" : ""} onClick={() => setFinish("graphite")}><i className="graphite" />{isEn ? "Graphite" : "石墨黑"}</button></div></fieldset><ul><li>{isEn ? "Fullive One sleep-space device" : "Fullive One 睡眠环境设备"}</li><li>{isEn ? "Three scent capsules" : "三枚香氛胶囊"}</li><li>{isEn ? "Fullive app and Bio-OS personalization" : "Fullive App 与 Bio-OS 个性化服务"}</li><li>{isEn ? "Two-year limited warranty" : "两年有限保修"}</li></ul><button className="buy-submit" type="button" onClick={() => setComplete(true)}>{isEn ? "Add to bag" : "加入购物袋"}</button><small>{isEn ? "Prototype checkout — no payment is processed." : "此为演示性结账流程，不会产生真实付款。"}</small></div></div>
       </>}
     </section>
   </div>;
@@ -741,22 +741,22 @@ function PartFourLanding({ language, onLanguageChange, onBack }: { language: Lan
   const isEn = language === "en";
   const scrollTo = (id: string) => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   const highlights = [
-    { title: { en: "Leave the day behind.", zh: "把白天，留在门外。" }, copy: { en: "Fullive shifts your room from active to restorative before your head reaches the pillow.", zh: "还没躺下，灯光和声音已经开始柔和下来，帮你从忙碌慢慢切换到休息。" }, image: "/fullive/fullive-launch-hero-v2.png" },
-    { title: { en: "Four cues. One rhythm.", zh: "四种调节，配合成一种节奏。" }, copy: { en: "Scent, light, sound and temperature respond as one coordinated sleep environment.", zh: "香氛、灯光、声音和温度不再各自运行，而是随着你的睡眠节奏协同变化。" }, image: "/fullive/fullive-system-macro-v2.png" },
-    { title: { en: "Learns night after night.", zh: "每一晚，都更懂你。" }, copy: { en: "Bio-OS learns what settles you and quietly adapts the sequence around your routine.", zh: "Bio-OS 会记住哪些变化更适合你，并根据作息不断调整下一晚。" }, image: "/fullive/fullive-night-hero.png" },
-    { title: { en: "Wake into the day.", zh: "醒来，也可以更从容。" }, copy: { en: "A gradual morning sequence brings light, sound and temperature back with intention.", zh: "灯光、声音和温度缓缓恢复，让清晨不再被闹钟突然打断。" }, image: "/fullive/fullive-morning-v2.png" },
+    { title: { en: "Leave the day behind.", zh: "把白天留在门外。" }, copy: { en: "Fullive shifts your room from active to restorative before your head reaches the pillow.", zh: "你还没躺下，房间已经先安静下来，帮你慢慢从忙碌切换到休息。" }, image: "/fullive/fullive-launch-hero-v2.png" },
+    { title: { en: "Four cues. One rhythm.", zh: "四种感官线索，同步协作。" }, copy: { en: "Scent, light, sound and temperature respond as one coordinated sleep environment.", zh: "香氛、灯光、声音和温度不再各自运行，而是围绕同一段睡眠节奏协同变化。" }, image: "/fullive/fullive-system-macro-v2.png" },
+    { title: { en: "Learns night after night.", zh: "越用，越懂你的夜晚。" }, copy: { en: "Bio-OS learns what settles you and quietly adapts the sequence around your routine.", zh: "Bio-OS 会记住哪些变化更适合你，并据此微调下一晚的节奏。" }, image: "/fullive/fullive-night-hero.png" },
+    { title: { en: "Wake into the day.", zh: "醒来时，也更从容。" }, copy: { en: "A gradual morning sequence brings light, sound and temperature back with intention.", zh: "灯光、声音和温度缓缓回到白天的状态，让清晨不再来得那么突然。" }, image: "/fullive/fullive-morning-v2.png" },
   ];
   const cues = [
-    { label: { en: "Light", zh: "灯光" }, value: "2200K → dawn", title: { en: "Light that follows your night.", zh: "灯光，跟着你的夜晚变化。" }, copy: { en: "Warm light lowers as you wind down, disappears for sleep and returns gradually before your alarm.", zh: "睡前逐渐变暗，入睡后熄灭，再在闹钟响起前缓缓亮起。" } },
-    { label: { en: "Sound", zh: "声音" }, value: "360° spatial audio", title: { en: "Sound that makes space for quiet.", zh: "用合适的声音，隔开外界的干扰。" }, copy: { en: "Adaptive soundscapes soften disruptive noise without asking you to manage another playlist.", zh: "自适应声景弱化突发噪音，你不必在睡前再挑选和管理播放列表。" } },
+    { label: { en: "Light", zh: "灯光" }, value: "2200K → dawn", title: { en: "Light that follows your night.", zh: "让灯光顺着夜晚慢慢变化。" }, copy: { en: "Warm light lowers as you wind down, disappears for sleep and returns gradually before your alarm.", zh: "睡前逐渐变暗，入睡后熄灭，再在闹钟响起前缓缓亮起。" } },
+    { label: { en: "Sound", zh: "声音" }, value: "360° spatial audio", title: { en: "Sound that makes space for quiet.", zh: "用声音隔开外界的干扰。" }, copy: { en: "Adaptive soundscapes soften disruptive noise without asking you to manage another playlist.", zh: "自适应声景弱化突发噪音，不必让你在睡前再挑选和管理播放列表。" } },
     { label: { en: "Scent", zh: "香氛" }, value: "3-zone diffusion", title: { en: "A scent cue your body remembers.", zh: "让熟悉的香气，成为入睡信号。" }, copy: { en: "Controlled micro-diffusion supports a repeatable wind-down cue and stops before it becomes background noise.", zh: "精准控制扩散时机与强度，形成稳定的睡前提示，同时避免香气持续过久。" } },
-    { label: { en: "Temperature", zh: "温度" }, value: "16–24°C adaptive", title: { en: "Comfort that changes with the hour.", zh: "不同睡眠阶段，温度也不同。" }, copy: { en: "Fullive coordinates compatible climate devices around your preferred sleep curve through the night.", zh: "Fullive 根据你的偏好和睡眠阶段，联动兼容设备自动调节室温。" } },
+    { label: { en: "Temperature", zh: "温度" }, value: "16–24°C adaptive", title: { en: "Comfort that changes with the hour.", zh: "不同阶段，温度也该不同。" }, copy: { en: "Fullive coordinates compatible climate devices around your preferred sleep curve through the night.", zh: "Fullive 按照你的偏好与睡眠节奏，联动兼容设备调节室温。" } },
   ];
   const nightSteps = [
-    { time: "9:45 PM", label: { en: "Transition", zh: "结束工作" }, title: { en: "Work ends. The room changes with you.", zh: "合上电脑，卧室也随之慢下来。" }, copy: { en: "Fullive recognizes the beginning of your routine and lowers stimulation across the room — before you have to think about it.", zh: "Fullive 识别到睡前习惯开始，提前调暗灯光、降低声音刺激，不必让你逐项设置。" }, image: "/fullive/fullive-launch-hero-v2.png" },
+    { time: "9:45 PM", label: { en: "Transition", zh: "结束工作" }, title: { en: "Work ends. The room changes with you.", zh: "合上电脑，卧室也慢下来。" }, copy: { en: "Fullive recognizes the beginning of your routine and lowers stimulation across the room — before you have to think about it.", zh: "Fullive 感知到你开始进入睡前流程，提前调暗灯光、降低声音刺激，不必让你逐项设置。" }, image: "/fullive/fullive-launch-hero-v2.png" },
     { time: "10:30 PM", label: { en: "Wind down", zh: "准备入睡" }, title: { en: "One touch. Then nothing to manage.", zh: "轻触一下，剩下的交给 Fullive。" }, copy: { en: "Your preferred scent cue begins, the light warms and an adaptive soundscape takes over from the day.", zh: "熟悉的香气慢慢散开，灯光转暖，自适应声景将白天的嘈杂隔在房间之外。" }, image: "/fullive/fullive-evening-routine.png" },
-    { time: "2:10 AM", label: { en: "Adapt", zh: "整夜调整" }, title: { en: "The system stays awake so you do not have to.", zh: "你睡着以后，系统继续安静调整。" }, copy: { en: "Bio-OS reads room conditions and quietly adjusts sound and climate while the display stays dark.", zh: "Bio-OS 持续读取房间状态，在不亮屏、不打扰的前提下调整声音与温度。" }, image: "/fullive/fullive-night-hero.png" },
-    { time: "6:45 AM", label: { en: "Rise", zh: "从容醒来" }, title: { en: "Morning arrives by degrees.", zh: "让清晨，慢慢亮起来。" }, copy: { en: "Light returns slowly, the room warms and a soft sound cue brings the routine full circle.", zh: "灯光缓缓亮起，室温逐渐回升，再用柔和的声音把你带入新的一天。" }, image: "/fullive/fullive-morning-v2.png" },
+    { time: "2:10 AM", label: { en: "Adapt", zh: "夜间适应" }, title: { en: "The system stays awake so you do not have to.", zh: "你睡着以后，系统仍在安静调节。" }, copy: { en: "Bio-OS reads room conditions and quietly adjusts sound and climate while the display stays dark.", zh: "Bio-OS 持续读取房间状态，在不亮屏、不打扰的前提下调整声音与温度。" }, image: "/fullive/fullive-night-hero.png" },
+    { time: "6:45 AM", label: { en: "Rise", zh: "自然醒来" }, title: { en: "Morning arrives by degrees.", zh: "让清晨慢慢亮起来。" }, copy: { en: "Light returns slowly, the room warms and a soft sound cue brings the routine full circle.", zh: "灯光缓缓亮起，室温逐渐回升，再用柔和的声音带你进入新的一天。" }, image: "/fullive/fullive-morning-v2.png" },
   ];
   const lives = [
     { tab: { en: "High-pressure work", zh: "高压工作" }, title: { en: "The workday is over. Your mind has not noticed yet.", zh: "电脑合上了，大脑却还没下班。" }, copy: { en: "Fullive lets the room take over the transition, so bedtime does not become one more decision after a demanding day.", zh: "Fullive 自动调整睡前环境，让忙了一天的你不必再费心安排如何放松。" }, image: "/fullive/fullive-launch-hero-v2.png" },
@@ -780,22 +780,22 @@ function PartFourLanding({ language, onLanguageChange, onBack }: { language: Lan
     <section className="launch-hero" id="fullive-top">
       <img src="/fullive/fullive-launch-hero-v2.png" alt={isEn ? "Fullive One in an evening bedroom" : "夜晚卧室中的 Fullive One"} />
       <div className="launch-hero-shade" />
-      <div className="launch-hero-copy"><p>FULLIVE ONE</p><h1>{isEn ? "Your room, tuned for sleep." : "让卧室，更懂你的睡眠。"}</h1><span>{isEn ? "An AI-powered sleep space that learns your rhythm and orchestrates scent, light, sound and temperature around it." : "Bio-OS 学习你的作息与偏好，自动配合香氛、灯光、声音和温度，让从入睡到醒来的过程更自然。"}</span><div><button type="button" className="primary-buy" onClick={() => setPurchaseOpen(true)}>{isEn ? "Buy" : "购买"}</button><button type="button" className="watch-night" onClick={() => scrollTo("night")}>{isEn ? "See how the night works ↓" : "看看 Fullive 如何陪你过一晚 ↓"}</button></div></div>
+      <div className="launch-hero-copy"><p>FULLIVE ONE</p><h1>{isEn ? "Your room, tuned for sleep." : "让卧室配合你的睡眠节奏。"}</h1><span>{isEn ? "An AI-powered sleep space that learns your rhythm and orchestrates scent, light, sound and temperature around it." : "Bio-OS 学习你的作息与偏好，协调香氛、灯光、声音和温度，让你从入睡到醒来都更自然。"}</span><div><button type="button" className="primary-buy" onClick={() => setPurchaseOpen(true)}>{isEn ? "Buy" : "购买"}</button><button type="button" className="watch-night" onClick={() => scrollTo("night")}>{isEn ? "See how the night works ↓" : "看看 Fullive 如何陪你度过一晚 ↓"}</button></div></div>
       <div className="launch-benefits"><span><strong>{isEn ? "60 nights" : "60 晚"}</strong>{isEn ? "Home trial" : "居家试用"}</span><span><strong>{isEn ? "4 cues" : "4 项调节"}</strong>{isEn ? "One coordinated system" : "由一套系统协同"}</span><span><strong>{isEn ? "Bio-OS" : "Bio-OS"}</strong>{isEn ? "Self-learning and adaptive" : "持续学习，主动适应"}</span></div>
     </section>
 
     <section className="launch-highlights" id="highlights">
-      <div className="launch-section-heading"><p>{isEn ? "GET THE HIGHLIGHTS" : "FULLIVE 核心亮点"}</p><h2>{isEn ? "The whole night, considered." : "一整晚，都替你想到了。"}</h2></div>
+      <div className="launch-section-heading"><p>{isEn ? "GET THE HIGHLIGHTS" : "FULLIVE 核心亮点"}</p><h2>{isEn ? "The whole night, considered." : "整晚的节奏，都有人替你顾及。"}</h2></div>
       <div className="highlight-stage"><img src={selectedHighlight.image} alt="" /><div className="highlight-overlay"><h3>{text(selectedHighlight.title, language)}</h3><p>{text(selectedHighlight.copy, language)}</p></div><div className="highlight-controls"><div className="highlight-dots" role="tablist" aria-label={isEn ? "Fullive highlights" : "Fullive 亮点"}>{highlights.map((item, index) => <button type="button" role="tab" title={text(item.title, language)} aria-label={text(item.title, language)} aria-selected={activeHighlight === index} className={activeHighlight === index ? "active" : ""} onClick={() => setActiveHighlight(index)} key={item.title.en}><i /></button>)}</div><button type="button" className="highlight-play" title={highlightPaused ? (isEn ? "Play" : "播放") : (isEn ? "Pause" : "暂停")} aria-label={highlightPaused ? (isEn ? "Play highlights" : "播放亮点") : (isEn ? "Pause highlights" : "暂停亮点")} onClick={() => setHighlightPaused((value) => !value)}>{highlightPaused ? "▶" : "Ⅱ"}</button></div></div>
     </section>
 
     <section className={`bio-system cue-${activeCue}`} id="intelligence">
-      <div className="bio-copy"><p>FULLIVE BIO-OS</p><h2>{isEn ? "Four cues. One quiet intelligence." : "四种环境调节，一套智能系统。"}</h2><span>{isEn ? "Multimodal fusion reads the room, learns your preferences and coordinates each intervention as part of one sleep curve." : "Bio-OS 感知房间状态，也学习你的偏好，让灯光、声音、香氛和温度始终配合着同一晚的睡眠进程。"}</span><div className="cue-tabs" role="tablist">{cues.map((cue, index) => <button type="button" role="tab" aria-selected={activeCue === index} className={activeCue === index ? "active" : ""} onClick={() => setActiveCue(index)} key={cue.label.en}>{text(cue.label, language)}</button>)}</div><div className="cue-detail"><b>{selectedCue.value}</b><h3>{text(selectedCue.title, language)}</h3><p>{text(selectedCue.copy, language)}</p></div></div>
+      <div className="bio-copy"><p>FULLIVE BIO-OS</p><h2>{isEn ? "Four cues. One quiet intelligence." : "四种环境调节，由一套系统协同。"}</h2><span>{isEn ? "Multimodal fusion reads the room, learns your preferences and coordinates each intervention as part of one sleep curve." : "Bio-OS 感知房间状态，也学习你的偏好，让灯光、声音、香氛和温度围绕同一晚的节奏协同变化。"}</span><div className="cue-tabs" role="tablist">{cues.map((cue, index) => <button type="button" role="tab" aria-selected={activeCue === index} className={activeCue === index ? "active" : ""} onClick={() => setActiveCue(index)} key={cue.label.en}>{text(cue.label, language)}</button>)}</div><div className="cue-detail"><b>{selectedCue.value}</b><h3>{text(selectedCue.title, language)}</h3><p>{text(selectedCue.copy, language)}</p></div></div>
       <div className="bio-product"><img src="/fullive/fullive-system-macro-v2.png" alt={isEn ? "Fullive One product detail" : "Fullive One 产品细节"} /><div className="cue-ring" /></div>
     </section>
 
     <section className="night-story" id="night">
-      <div className="night-intro"><p>{isEn ? "A NIGHT WITH FULLIVE" : "FULLIVE 的一夜"}</p><h2>{isEn ? "From switched on to fully at rest." : "从下班，到醒来。"}</h2><span>{isEn ? "Bio-OS turns a collection of features into one continuous nightly rhythm." : "从睡前到清晨，Bio-OS 会根据时间、房间状态和你的习惯持续调节，不必让你在夜里分心操作。"}</span></div>
+      <div className="night-intro"><p>{isEn ? "A NIGHT WITH FULLIVE" : "FULLIVE 的一夜"}</p><h2>{isEn ? "From switched on to fully at rest." : "从结束工作，到自然醒来。"}</h2><span>{isEn ? "Bio-OS turns a collection of features into one continuous nightly rhythm." : "从睡前到清晨，Bio-OS 会结合时间、房间状态和你的习惯持续调节，不必让你在夜里分心操作。"}</span></div>
       <div className="night-sequence">{nightSteps.map((step, index) => <article className={index % 2 ? "night-step reverse" : "night-step"} key={step.time}><div className="night-media"><img src={step.image} alt="" /><span>{step.time}</span></div><div className="night-copy"><p>{String(index + 1).padStart(2, "0")} · {text(step.label, language)}</p><h3>{text(step.title, language)}</h3><span>{text(step.copy, language)}</span></div></article>)}</div>
     </section>
 
@@ -835,28 +835,32 @@ function PartFourCase({ language, onOpenLanding }: { language: Language; onOpenL
     <section className="article-hero part-four-case-hero">
       <p>{isEn ? "GTM TAKE-HOME · PART 4" : "GTM TAKE-HOME · 第四部分"}</p>
       <h1>{isEn ? "Landing Page & Data Loop" : "落地页与数据闭环"}</h1>
-      <span>{isEn ? "Consumer experience, measurement and the decisions that follow" : "从页面体验，到转化衡量与后续决策"}</span>
-      <div className="prototype-preview"><img src="/fullive/fullive-launch-hero-v2.png" alt={isEn ? "Fullive landing page prototype" : "Fullive 落地页原型"} /><div><strong>FULLIVE ONE</strong><p>{isEn ? "Your room, tuned for sleep." : "让卧室，更懂你的睡眠。"}</p><button type="button" onClick={onOpenLanding}>{isEn ? "Open landing page prototype ↗" : "查看落地页原型 ↗"}</button></div></div>
+      <span>{isEn ? "Consumer experience, measurement and the decisions that follow" : "页面体验、衡量方式与后续决策"}</span>
+      <div className="prototype-preview"><img src="/fullive/fullive-launch-hero-v2.png" alt={isEn ? "Fullive landing page prototype" : "Fullive 落地页原型"} /><div><strong>FULLIVE ONE</strong><p>{isEn ? "Your room, tuned for sleep." : "让卧室配合你的睡眠节奏。"}</p><button type="button" onClick={onOpenLanding}>{isEn ? "Open landing page prototype ↗" : "查看落地页原型 ↗"}</button></div></div>
     </section>
 
     <article className="article-body part-four-body">
-      <div className="part-four-brief"><span><b>{isEn ? "POSITIONING" : "定位"}</b>{isEn ? "One adaptive sleep space, not four separate features." : "卖点是一套会主动适应的睡眠系统，而不是四项功能的简单组合。"}</span><span><b>{isEn ? "CONVERSION" : "转化"}</b>{isEn ? "One Buy path, with learning paths for visitors who need context first." : "以购买为唯一主路径，同时为需要理解产品的访客保留探索路径。"}</span><span><b>{isEn ? "LEARNING" : "验证"}</b>{isEn ? "Each interaction has an event, a decision owner and a next action." : "每个关键互动都对应事件、决策负责人和下一步行动。"}</span></div>
+      <div className="part-four-brief"><span><b>{isEn ? "POSITIONING" : "定位"}</b>{isEn ? "One adaptive sleep space, not four separate features." : "讲的是一套会主动适应的睡眠环境，而不是四项功能的拼盘。"}</span><span><b>{isEn ? "CONVERSION" : "转化"}</b>{isEn ? "One Buy path, with learning paths for visitors who need context first." : "购买是唯一主路径；还没想清楚的访客可以继续了解，不会被迫立刻下决定。"}</span><span><b>{isEn ? "LEARNING" : "验证"}</b>{isEn ? "Each interaction has an event, a decision owner and a next action." : "每个关键互动都对应一个事件、一项判断和下一步动作。"}</span></div>
 
       <h2>{isEn ? "The answer in four decisions" : "四项核心决策"}</h2>
       <div className="part-four-answer-grid">
-        <section><span>01</span><h3>{isEn ? "Key message" : "核心信息"}</h3><p>{isEn ? "Fullive One is an AI-powered sleep space that learns a person's nightly rhythm and coordinates scent, light, sound and temperature around it. The lead benefit is a lower-effort transition from an active day into sleep; the four cues explain why that promise is credible." : "Fullive One 是一套会学习个人作息，并自动配合香氛、灯光、声音和温度的 AI 智能睡眠系统。首要利益点是更省力地从忙碌进入休息；四种环境调节则解释这一承诺为何可信。"}</p></section>
+        <section><span>01</span><h3>{isEn ? "Key message" : "核心信息"}</h3><p>{isEn ? "Fullive One is an AI-powered sleep space that learns a person's nightly rhythm and coordinates scent, light, sound and temperature around it. The lead benefit is a lower-effort transition from an active day into sleep; the four cues explain why that promise is credible." : "Fullive One 是一套会学习个人夜间节奏，并协调香氛、灯光、声音和温度的 AI 睡眠环境。先传达的收益是：从忙碌进入休息，不必再费力切换。四种环境调节用来说明这件事如何发生。"}</p></section>
         <section><span>02</span><h3>{isEn ? "Target user" : "目标用户"}</h3><p>{isEn ? "North American professionals and wellness-minded adults with recurring sleep friction, existing spend on premium health or smart-home products, and a visible next-day cost in focus, recovery or relationships." : "面向北美专业人士及重视健康的成年人。他们反复遇到难放松、难入睡或醒后状态不佳，也愿意为高端健康和智能家居产品付费，并能明显感受到睡不好对工作、恢复或人际相处的影响。"}</p></section>
-        <section><span>03</span><h3>{isEn ? "Main CTA" : "主要行动按钮"}</h3><p>{isEn ? "Buy Fullive One. It appears in the sticky product navigation, hero and final close. “See how the night works” is secondary: it keeps uncertain visitors learning without creating a competing conversion goal." : "主要按钮是“购买 Fullive One”，固定出现在顶部导航、首屏和页尾。“看看它如何陪你过一晚”是次要入口：它让仍在犹豫的访客继续了解产品，但不制造第二个转化目标。"}</p></section>
+        <section><span>03</span><h3>{isEn ? "Main CTA" : "主要行动按钮"}</h3><p>{isEn ? "Buy Fullive One. It appears in the sticky product navigation, hero and final close. “See how the night works” is secondary: it keeps uncertain visitors learning without creating a competing conversion goal." : "主要按钮是“购买 Fullive One”，在顶部导航、首屏和页尾持续出现。“看看它如何陪你度过一晚”是次要入口，给仍在犹豫的人更多理解空间，但不制造第二个转化目标。"}</p></section>
         <section><span>04</span><h3>{isEn ? "Desired user action" : "期望用户完成的行动"}</h3><p>{isEn ? "Complete product configuration and checkout. Highlight selection, Bio-OS cue exploration and scenario engagement are diagnostic behaviors, not substitutes for the conversion goal." : "最终目标是完成产品配置与结账。亮点切换、Bio-OS 功能探索和场景浏览属于过程信号，用来判断用户为何购买或流失，不能代替最终转化。"}</p></section>
       </div>
 
       <h2>{isEn ? "How the page builds the decision" : "页面如何一步步促成购买"}</h2>
-      <p>{isEn ? "The landing page is organized by the consumer decision journey, not by time. Only the “A night with Fullive” chapter is chronological." : "整张页面按照用户从认识、理解、产生信任到购买的顺序展开。只有“Fullive 的一夜”采用时间线，用来解释产品在真实夜晚中如何工作。"}</p>
+      <p>{isEn ? "The landing page is organized by the consumer decision journey, not by time. Only the “A night with Fullive” chapter is chronological." : "整张页面按用户的决策过程组织，而不是按时间罗列功能：先产生兴趣，再理解产品，建立信任，最后购买。只有“Fullive 的一夜”按时间线讲述，用来说明产品在真实夜晚中如何工作。"}</p>
       <div className="page-role-list">{pageRoles.map((role) => <section key={role.section}><span>{role.section}</span><div><h3>{text(role.name, language)}</h3><b>{text(role.question, language)}</b><p>{text(role.answer, language)}</p></div></section>)}</div>
       <button type="button" className="open-prototype-inline" onClick={onOpenLanding}>{isEn ? "Experience the consumer page ↗" : "查看消费者落地页 ↗"}</button>
 
+      <h2>{isEn ? "How marketing, copy and action connect" : "营销、文案与行动如何连起来"}</h2>
+      <p>{isEn ? "The acquisition message should not promise something the page cannot explain. Each route starts with a real-life tension, gives the same product a relevant frame, and sends the visitor to the section that resolves the next question." : "引流信息不能承诺页面无法解释的内容。每条路径都先从真实生活中的困扰切入，再用相应的产品表达，把访客带到能回答下一问题的页面章节。"}</p>
+      <div className="copy-logic"><section><span>01</span><h3>{isEn ? "Attract" : "先吸引注意"}</h3><p>{isEn ? "Creator or ad: “I cannot switch off after work.”" : "创作者或广告： “工作结束了，人却还停不下来。”"}</p><b>{isEn ? "Target" : "对应人群"}</b><p>{isEn ? "Knowledge workers with an active mind at bedtime." : "睡前大脑仍在高速运转的职场人。"}</p></section><section><span>02</span><h3>{isEn ? "Explain" : "再解释价值"}</h3><p>{isEn ? "Landing hero: “Your room, tuned for sleep.” Bio-OS shows how coordination, not novelty alone, creates the benefit." : "首屏： “让卧室配合你的睡眠节奏。” Bio-OS 说明带来价值的是环境协同，而不只是新奇功能。"}</p><b>{isEn ? "Desired response" : "希望用户理解"}</b><p>{isEn ? "This is one adaptive system, not another device to manage." : "这是一套会配合我的系统，不是又一个需要我操心的设备。"}</p></section><section><span>03</span><h3>{isEn ? "Convert" : "最后促成行动"}</h3><p>{isEn ? "Proof, privacy and trial appear after comprehension, then Buy opens a simple configuration flow." : "用户理解产品后，再呈现证据、隐私和试用保障；随后由“购买”进入简洁的配置流程。"}</p><b>{isEn ? "Desired action" : "期望行动"}</b><p>{isEn ? "Start configuration, then complete checkout." : "开始配置，并完成结账。"}</p></section></div>
+
       <h2>{isEn ? "Measurement architecture" : "如何衡量页面表现"}</h2>
-      <p>{isEn ? "The primary metric is checkout completion per qualified session. Before commerce is live, Buy-start rate is a temporary leading signal, not a substitute for demand. Every event carries source, creator, creative, message variant, scene, device and visitor-type properties; no sleep or other sensitive personal data belongs in web analytics." : "核心指标是每位有效访问者的结账完成率。交易尚未上线时，可暂以“开始购买率”作为领先信号，但不能把它当成真实需求。每个事件都应带上来源、创作者、素材、信息版本、场景、设备和访客类型；网站分析中不应收集睡眠或其他敏感个人数据。"}</p>
+      <p>{isEn ? "The primary metric is checkout completion per qualified session. Before commerce is live, Buy-start rate is a temporary leading signal, not a substitute for demand. Every event carries source, creator, creative, message variant, scene, device and visitor-type properties; no sleep or other sensitive personal data belongs in web analytics." : "核心指标是有效访问者的结账完成率。交易尚未上线时，“开始购买率”只能作为早期信号，不能替代真实需求。每个事件都应带上来源、创作者、素材、信息版本、场景、设备和访客类型；网站分析中不采集睡眠或其他敏感个人数据。"}</p>
       <figure className="measurement-funnel"><div><b>01</b><strong>landing_view</strong><span>{isEn ? "qualified source and message" : "有效来源与信息版本"}</span></div><div><b>02</b><strong>hero_cta_clicked</strong><span>{isEn ? "entry-message response" : "入口信息反馈"}</span></div><div><b>03</b><strong>highlight / cue / scene viewed</strong><span>{isEn ? "understanding and relevance" : "理解与相关性"}</span></div><div><b>04</b><strong>buy_started</strong><span>{isEn ? "trust and offer signal" : "信任与方案信号"}</span></div><div><b>05</b><strong>checkout_completed</strong><span>{isEn ? "commercial conversion" : "真实商业转化"}</span></div></figure>
       <div className="metric-hierarchy"><section><h3>{isEn ? "Primary" : "核心指标"}</h3><p>{isEn ? "Purchase conversion rate; revenue per qualified visitor when commerce is live." : "购买转化率；正式销售后，再增加每位有效访客带来的收入。"}</p></section><section><h3>{isEn ? "Diagnostic" : "过程指标"}</h3><p>{isEn ? "Hero CTA rate, section view-through, highlight and cue engagement, configuration completion and checkout abandonment." : "首屏按钮点击率、各章节到达率、亮点与功能互动率、配置完成率和结账放弃率。"}</p></section><section><h3>{isEn ? "Cuts" : "拆分维度"}</h3><p>{isEn ? "Creator, platform, creative, message variant, device, audience scene and new vs. returning visitor." : "按创作者、平台、素材、信息版本、设备、用户场景，以及新访客和回访用户分别查看。"}</p></section></div>
 
@@ -865,7 +869,7 @@ function PartFourCase({ language, onOpenLanding }: { language: Language; onOpenL
       <div className="stage-grid">{stages.map((item) => <section key={item.stage.en}><span>{text(item.stage, language)}</span><h3>{text(item.metric, language)}</h3><p><b>{isEn ? "Why" : "原因"}</b>{text(item.why, language)}</p><p><b>{isEn ? "Decision" : "决策"}</b>{text(item.decision, language)}</p></section>)}</div>
 
       <h2>{isEn ? "From data to the next GTM decision" : "如何用数据指导下一步 GTM"}</h2>
-      <p>{isEn ? "A dashboard is not the loop. The loop exists only when a signal changes what the team does next. Instrumentation is checked daily; the source/message review happens weekly; a two-week readout decides the next creator, message and landing-page test. Do not select a winner from a tiny cohort or a single vanity metric." : "数据闭环不只是看仪表盘，而是让每个信号都能推动下一项具体行动。每天检查埋点是否正常，每周复盘来源与信息表现，两周后决定下一轮创作者、信息和落地页测试。不能根据小样本或单一虚荣指标宣布“胜出”。"}</p>
+      <p>{isEn ? "A dashboard is not the loop. The loop exists only when a signal changes what the team does next. Instrumentation is checked daily; the source/message review happens weekly; a two-week readout decides the next creator, message and landing-page test. Do not select a winner from a tiny cohort or a single vanity metric." : "数据闭环不是多看一个仪表盘，而是让信号真正改变团队的下一步动作。每天检查埋点是否正常，每周复盘来源与信息表现，两周后决定下一轮创作者、信息和落地页测试。小样本或单一虚荣指标，都不足以宣布某个方案“胜出”。"}</p>
       <div className="decision-table" role="table" aria-label={isEn ? "Data decision rules" : "数据决策规则"}><div className="decision-head" role="row"><b>{isEn ? "Observed signal" : "数据表现"}</b><b>{isEn ? "Likely interpretation" : "可能原因"}</b><b>{isEn ? "Next decision" : "下一步行动"}</b></div><div role="row"><span>{isEn ? "High bounce; weak hero CTA" : "跳出率高，首屏购买点击少"}</span><span>{isEn ? "Traffic and value proposition do not match" : "流量来源与核心卖点不匹配"}</span><span>{isEn ? "Rewrite the hero for that source; test outcome vs. AI-system framing" : "针对该来源改写首屏，对比“改善次日状态”和“AI 智能调节”两种表达"}</span></div><div role="row"><span>{isEn ? "Strong Bio-OS engagement; weak Buy intent" : "Bio-OS 互动多，但购买点击少"}</span><span>{isEn ? "The mechanism is interesting, but trust or value is insufficient" : "功能原理有吸引力，但价值感或信任感仍不足"}</span><span>{isEn ? "Strengthen proof, guarantee and product demonstration before adding media spend" : "先补强效果证据、试用保障和产品演示，再增加投放预算"}</span></div><div role="row"><span>{isEn ? "Strong Buy clicks; configuration drop-off" : "购买点击多，但配置环节流失高"}</span><span>{isEn ? "Purchase flow or product choice creates friction" : "购买流程复杂，或产品选项难以理解"}</span><span>{isEn ? "Reduce options, clarify what is included and test the configuration order" : "精简选项，说明包装内容，并测试不同配置顺序"}</span></div><div role="row"><span>{isEn ? "Conversion concentrates in one Real Lives scene" : "购买转化集中在某一生活场景"}</span><span>{isEn ? "One audience problem has stronger message-market fit" : "该场景更能打动目标用户"}</span><span>{isEn ? "Prioritize matching creators, paid creative and a scene-specific landing variant" : "优先投入相应创作者、广告素材和场景专属落地页"}</span></div></div>
 
       <h2>{isEn ? "First experiments" : "首轮实验"}</h2>
@@ -880,41 +884,35 @@ function PartFourCase({ language, onOpenLanding }: { language: Language; onOpenL
 function PartFive({ language }: { language: Language }) {
   const isEn = language === "en";
   const workflowRows = [
-    { step: { en: "Expand", zh: "先扩展选项" }, copy: { en: "Used AI to create a broader starting set of competitors, creator routes, survey topics and landing-page hypotheses. Nothing in this first pass was treated as a conclusion.", zh: "先让 AI 扩展候选范围：竞品、创作者路径、问卷主题和落地页假设。第一稿只用于打开思路，不直接作为结论。" } },
-    { step: { en: "Verify", zh: "再核查事实" }, copy: { en: "Checked current product price, launch status, creator channels and potential conflicts against first-party pages. Company claims, direct facts and analyst inferences are deliberately written differently.", zh: "通过第一方页面核查产品价格、上市状态、创作者渠道和潜在合作冲突。品牌自述、直接事实和分析推断，在文案中刻意区分。" } },
-    { step: { en: "Challenge", zh: "然后反驳第一稿" }, copy: { en: "Questioned the category choice, evidence quality and commercial logic: whether a product is a direct competitor, whether a creator is a first-wave fit, and whether a click can support a GTM decision.", zh: "回头质疑第一稿的品类划分、证据质量和商业逻辑：它是否真是直接竞品，创作者是否适合进入首轮，以及一次点击是否足以支持 GTM 决策。" } },
-    { step: { en: "Decide", zh: "最后形成可执行判断" }, copy: { en: "Rewrote the output around choices, trade-offs and next evidence. Recommendations are framed as tests where the evidence is still incomplete.", zh: "最后围绕取舍、风险和下一步证据重写内容。证据尚不完整的地方，明确写成需要验证的测试，而不是武断结论。" } },
+    { step: { en: "1. GPT-5.6 / Codex", zh: "1. GPT-5.6 / Codex" }, copy: { en: "Generated the initial competitor set, survey structure, creator routes and landing-page draft. It was used to broaden options and structure the work, not to establish facts.", zh: "用于扩展竞品、问卷结构、创作者路径和落地页初稿。它负责打开选项、搭建结构，不负责认定事实。" } },
+    { step: { en: "2. Web research", zh: "2. 网页核查" }, copy: { en: "Checked time-sensitive facts against first-party pages: pricing, availability, product scope, creator channels and brand conflicts.", zh: "用第一方页面核查时效性事实：价格、上市状态、产品范围、创作者渠道和品牌合作冲突。" } },
+    { step: { en: "3. Custom skill", zh: "3. 自定义 skill" }, copy: { en: "Built evidence-led-marketing-agent to require a claim ledger, source hierarchy, counter-check and before/after improvement log across the case.", zh: "创建 evidence-led-marketing-agent，要求全案保留主张清单、来源层级、反向核查和“修改前 / 修改后”记录。" } },
+    { step: { en: "4. Final judgment", zh: "4. 人工判断" }, copy: { en: "Removed unsupported certainty, reclassified weak fits, and turned open questions into survey or creator tests with a measurable next step.", zh: "删去没有依据的确定性说法，重新归类不够匹配的对象，并把悬而未决的问题改写成可衡量的问卷或创作者测试。" } },
   ];
   const changes = [
     { draft: { en: "Naptick: unclear fulfillment and a $149 founder offer.", zh: "初稿把 Naptick 写成“发货信息不清楚，创始用户价 $149”。" }, checked: { en: "Its current product page states $349, a 60-night guarantee and Batch 3 shipping in Aug 2026.", zh: "核查后发现，其当前产品页写明 $349、60 晚退款保障，以及第 3 批预计于 2026 年 8 月发货。" }, final: { en: "Corrected the profile and retained only the remaining uncertainty: autonomous intervention is not clearly demonstrated publicly.", zh: "因此更正了价格和发货信息，只保留尚未被公开材料充分说明的疑问：是否存在真正的自动干预。" } },
     { draft: { en: "Sleep.ai: direct consumer competitor.", zh: "初稿把 Sleep.ai 当作直接面向消费者的竞品。" }, checked: { en: "Its public offer includes SleepScore Labs, APIs and product-validation services alongside consumer sleep insight.", zh: "核查其公开业务后发现，除消费者睡眠洞察外，还包括 SleepScore Labs、API 和产品验证服务。" }, final: { en: "Reclassified it as measurement and validation adjacency, which changes the relevant GTM question from displacement to potential proof partnership.", zh: "因此将其改为“测量与验证邻近方”。对应的 GTM 问题也从“会不会替代我们”变为“能否成为验证能力的潜在伙伴”。" } },
-    { draft: { en: "A broad fitness creator as a top-three first-wave choice.", zh: "初稿把泛健身大号列入首轮 Top 3。" }, checked: { en: "The case needs fast, comparable learning on a premium sleep device; broad reach is less useful before the recovery message itself is proven.", zh: "但本题首先需要快速、可比较地学习高端睡眠设备的受众与信息匹配度；在“恢复”这一信息尚未被证实之前，泛流量的学习效率有限。" }, final: { en: "Moved fitness scale to phase two and prioritized sleep, wind-down and mindfulness routes for the first two weeks.", zh: "因此把健身类规模化触达放到第二阶段，首两周优先测试睡眠、睡前流程和正念三条路径。" } },
     { draft: { en: "Lead launch copy with multisensory novelty.", zh: "初稿倾向用“多感官新颖性”作为首要传播点。" }, checked: { en: "Soluna already makes a similar four-cue promise. The competitor scan does not establish novelty as an ownable position.", zh: "但 Soluna 已经提出相近的四感官承诺，竞品扫描并不能证明“多感官”是可独占的定位。" }, final: { en: "The prototype leads with the felt transition out of the day, then explains coordinated cues as the mechanism.", zh: "因此原型先讲“从忙碌进入休息”的体感收益，再用环境协同解释它如何做到。" } },
   ];
   return <main>
     <section className="article-hero">
       <p>{isEn ? "GTM TAKE-HOME · PART 5" : "GTM TAKE-HOME · 第五部分"}</p>
-      <h1>{isEn ? "AI Workflow & Quality Control" : "AI 工作流与质量控制"}</h1>
-      <span>{isEn ? "How AI widened the work, and evidence narrowed the decision" : "先用 AI 打开思路，再用证据收敛判断"}</span>
+      <h1>{isEn ? "AI Workflow" : "AI 工作流说明"}</h1>
+      <span>{isEn ? "Generate broadly. Verify carefully. Decide with judgment." : "先扩展，再核查，最后基于判断收敛。"}</span>
       <img src="/fullive/fullive-system-macro-v2.png" alt={isEn ? "Fullive One prototype" : "Fullive One 原型"} />
     </section>
     <article className="article-body">
-      <p>{isEn ? "AI was used as a research and production accelerator, not as an authority. The work was designed to make its assumptions inspectable: current facts are sourced, recommendations are calibrated, and unresolved questions are converted into research or tests." : "这次工作把 AI 当作研究与产出加速器，而不是权威来源。核心做法是让每项判断都可追溯：当前事实有出处，建议保留边界，尚未解决的问题则转化为研究或测试。"}</p>
+      <p>{isEn ? "AI accelerated research and production, but it was not treated as a source of truth. Current facts were checked, assumptions were labelled, and recommendations were framed as tests where evidence is still incomplete." : "AI 用于加快研究和产出，但不被当作事实来源。当前事实经过核查，假设明确标注；证据不足的建议都写成下一步需要验证的测试。"}</p>
 
-      <h2>{isEn ? "The workflow" : "工作流程"}</h2>
+      <h2>{isEn ? "Tools, use and verification" : "工具、用途与核查方式"}</h2>
       <div className="workflow-grid">{workflowRows.map((item, index) => <section key={item.step.en}><span>{String(index + 1).padStart(2, "0")}</span><h3>{text(item.step, language)}</h3><p>{text(item.copy, language)}</p></section>)}</div>
 
-      <h2>{isEn ? "What changed after verification" : "核查后，哪些内容被改写"}</h2>
-      <p>{isEn ? "The point of the workflow is visible correction, not a list of tools. These examples show where the initial AI-assisted draft was materially changed before it entered the case." : "工作流的价值不在于罗列工具，而在于留下可见的修正痕迹。以下示例说明 AI 辅助形成的初稿，如何在进入案例前被实质改写。"}</p>
+      <h2>{isEn ? "What I changed after verification" : "核查后，我具体改了什么"}</h2>
+      <p>{isEn ? "The useful output of an AI workflow is visible correction, not a tool list. These three changes materially affected the case recommendation." : "AI 工作流的价值不在于列工具，而在于留下可见的修正。以下三项改动直接影响了案例中的判断。"}</p>
       <div className="improvement-list">{changes.map((item, index) => <section key={item.draft.en}><span>{String(index + 1).padStart(2, "0")}</span><div><h3>{isEn ? "Initial draft" : "初稿"}</h3><p>{text(item.draft, language)}</p></div><div><h3>{isEn ? "After checking" : "核查后"}</h3><p>{text(item.checked, language)}</p></div><div><h3>{isEn ? "Final treatment" : "最终处理"}</h3><p>{text(item.final, language)}</p></div></section>)}</div>
 
-      <h2>{isEn ? "Custom skill" : "自建技能"}</h2>
-      <div className="skill-note"><span>evidence-led-marketing-agent</span><h3>{isEn ? "A reusable guardrail for AI-assisted GTM work." : "为 AI 辅助 GTM 工作建立可复用的护栏。"}</h3><p>{isEn ? "I created a custom skill that routes work to the relevant marketing modules, requires an evidence hierarchy and claim ledger, asks for an adversarial pass, and requires before/after examples in the AI workflow note. It preserves the original specialist skills instead of flattening them into one generic prompt." : "我为本次任务创建了一个自定义 skill：它会按任务路由到相应的营销模块，要求建立证据层级与主张清单，加入反向质疑，并要求在 AI 工作流说明中留下“修改前 / 修改后”的例子。它保留原有专业技能的边界，而不是把所有工作压成一个泛化提示词。"}</p><p>{isEn ? "The local skill package has been validated. GitHub publication requires an authenticated GitHub write session, which is unavailable in this environment; the repository link can be added once that session is connected." : "本地技能包已完成结构校验。当前环境没有可写入的 GitHub 登录会话，因此暂时无法发布公开仓库；连接账号后即可补上仓库链接。"}</p></div>
-
-      <h2>{isEn ? "Limits and next evidence" : "边界与下一步证据"}</h2>
-      <p>{isEn ? "This is a disciplined desk-research and prototype exercise, not proof of product-market fit. No primary interviews, creator fees, audience demographics, product efficacy study or commercial availability were independently confirmed. The next confidence-building step is to run the Part 2 survey, validate the highest-signal message with three small creator pilots, and use the Part 4 event plan to decide where to invest next." : "这是一份经过约束的桌面研究与原型练习，不等于已经证明了产品市场匹配。案例没有独立确认一手访谈、创作者报价、受众画像、产品功效研究或商业合作可行性。最能提高信心的下一步，是先运行 Part 2 问卷，再用三组小型创作者试点验证最有信号的信息，并按 Part 4 的事件方案决定下一轮投入。"}</p>
-      <h2>{isEn ? "Quality checks applied" : "本次交付的质量检查"}</h2>
-      <div className="quality-list"><span>{isEn ? "Ownership: a concrete next action follows each major finding." : "Ownership：每项重要发现都给出具体下一步。"}</span><span>{isEn ? "Research quality: current facts cite primary pages and company claims are not upgraded into proof." : "研究质量：当前事实优先引用第一方页面，品牌自述不被包装成独立证据。"}</span><span>{isEn ? "Judgment: candidates are prioritized for learning value, not follower count alone." : "判断力：候选对象按学习价值排序，而不是只看粉丝量。"}</span><span>{isEn ? "Data loop: metrics have a denominator, diagnostic role and decision use." : "数据闭环：每个指标都说明分母、诊断作用和决策用途。"}</span></div>
+      <div className="skill-note"><span>evidence-led-marketing-agent</span><h3>{isEn ? "The custom skill used for this case." : "本次案例使用的自定义 skill。"}</h3><p>{isEn ? "It combines the installed marketing modules with a required evidence check: source hierarchy, claim ledger, counter-check and documented rewrite. The local package passed structural validation." : "它把现有营销模块和一套必须执行的证据检查结合起来：来源层级、主张清单、反向核查和改写记录。本地技能包已通过结构校验。"}</p></div>
+      <p className="source-note">{isEn ? "Limit: this is desk research and a prototype, not proof of product-market fit. The next step is the Part 2 survey followed by three small creator pilots, using the Part 4 measurement plan to decide what to scale." : "边界：这是一份桌面研究和原型，不等于已经验证产品市场匹配。下一步是先跑 Part 2 问卷，再做三组小型创作者试点，并按 Part 4 的衡量方案决定扩大什么。"}</p>
     </article>
   </main>;
 }
