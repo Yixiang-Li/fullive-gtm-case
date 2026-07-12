@@ -1,0 +1,150 @@
+{
+  "ok": false,
+  "frames_root": "/Users/yixiangli/Documents/GTM/hatch-runs/nailong-laughing/qa/rows/running-right/frames",
+  "states": [
+    "running-right"
+  ],
+  "errors": [
+    "running-right used extraction method slots; regenerate the row or inspect slot slicing"
+  ],
+  "warnings": [
+    "running-right frame 07 is much smaller than the row median (5510 vs 19838)"
+  ],
+  "rows": [
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "slots",
+      "ok": false,
+      "errors": [
+        "running-right used extraction method slots; regenerate the row or inspect slot slicing"
+      ],
+      "warnings": [
+        "running-right frame 07 is much smaller than the row median (5510 vs 19838)"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/yixiangli/Documents/GTM/hatch-runs/nailong-laughing/qa/rows/running-right/frames/running-right/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19945,
+          "bbox": [
+            24,
+            5,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 190
+        },
+        {
+          "index": 1,
+          "file": "/Users/yixiangli/Documents/GTM/hatch-runs/nailong-laughing/qa/rows/running-right/frames/running-right/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20510,
+          "bbox": [
+            14,
+            5,
+            177,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 239
+        },
+        {
+          "index": 2,
+          "file": "/Users/yixiangli/Documents/GTM/hatch-runs/nailong-laughing/qa/rows/running-right/frames/running-right/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20388,
+          "bbox": [
+            15,
+            5,
+            176,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 244
+        },
+        {
+          "index": 3,
+          "file": "/Users/yixiangli/Documents/GTM/hatch-runs/nailong-laughing/qa/rows/running-right/frames/running-right/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19218,
+          "bbox": [
+            14,
+            5,
+            177,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 242
+        },
+        {
+          "index": 4,
+          "file": "/Users/yixiangli/Documents/GTM/hatch-runs/nailong-laughing/qa/rows/running-right/frames/running-right/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19730,
+          "bbox": [
+            16,
+            5,
+            175,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 224
+        },
+        {
+          "index": 5,
+          "file": "/Users/yixiangli/Documents/GTM/hatch-runs/nailong-laughing/qa/rows/running-right/frames/running-right/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17962,
+          "bbox": [
+            15,
+            5,
+            176,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 245
+        },
+        {
+          "index": 6,
+          "file": "/Users/yixiangli/Documents/GTM/hatch-runs/nailong-laughing/qa/rows/running-right/frames/running-right/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 22651,
+          "bbox": [
+            13,
+            5,
+            178,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 286
+        },
+        {
+          "index": 7,
+          "file": "/Users/yixiangli/Documents/GTM/hatch-runs/nailong-laughing/qa/rows/running-right/frames/running-right/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5510,
+          "bbox": [
+            76,
+            5,
+            115,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 102
+        }
+      ]
+    }
+  ]
+}
