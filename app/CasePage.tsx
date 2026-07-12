@@ -883,36 +883,68 @@ function PartFourCase({ language, onOpenLanding }: { language: Language; onOpenL
 
 function PartFive({ language }: { language: Language }) {
   const isEn = language === "en";
-  const workflowRows = [
-    { step: { en: "1. GPT-5.6 / Codex", zh: "1. GPT-5.6 / Codex" }, copy: { en: "Generated the initial competitor set, survey structure, creator routes and landing-page draft. It was used to broaden options and structure the work, not to establish facts.", zh: "用于扩展竞品、问卷结构、创作者路径和落地页初稿。它负责打开选项、搭建结构，不负责认定事实。" } },
-    { step: { en: "2. Web research", zh: "2. 网页核查" }, copy: { en: "Checked time-sensitive facts against first-party pages: pricing, availability, product scope, creator channels and brand conflicts.", zh: "用第一方页面核查时效性事实：价格、上市状态、产品范围、创作者渠道和品牌合作冲突。" } },
-    { step: { en: "3. Custom skill", zh: "3. 自定义 skill" }, copy: { en: "Built evidence-led-marketing-agent to require a claim ledger, source hierarchy, counter-check and before/after improvement log across the case.", zh: "创建 evidence-led-marketing-agent，要求全案保留主张清单、来源层级、反向核查和“修改前 / 修改后”记录。" } },
-    { step: { en: "4. Final judgment", zh: "4. 人工判断" }, copy: { en: "Removed unsupported certainty, reclassified weak fits, and turned open questions into survey or creator tests with a measurable next step.", zh: "删去没有依据的确定性说法，重新归类不够匹配的对象，并把悬而未决的问题改写成可衡量的问卷或创作者测试。" } },
+  const workflow = [
+    {
+      title: { en: "Frame the decisions", zh: "先明确要回答什么" },
+      ai: { en: "Turned the brief into research questions and a first-pass structure.", zh: "协助把题目拆成研究问题和初步框架。" },
+      judgment: { en: "Defined what each part had to help the team decide, and removed work that did not serve the brief.", zh: "我先确定每个 Part 最终要帮助团队做什么决定，并删掉与题目无关的内容。" },
+      output: { en: "A shared decision frame for all four parts.", zh: "四个 Part 共用的一套决策框架。" },
+    },
+    {
+      title: { en: "Build the candidate set", zh: "再把可能性铺开" },
+      ai: { en: "Expanded competitor and creator longlists, survey options and landing-page directions.", zh: "快速补充竞品、创作者、问卷选项和落地页方向。" },
+      judgment: { en: "Set the inclusion criteria, comparison fields and the level of evidence each claim required.", zh: "我来设定入选标准、比较维度，以及每类说法需要什么证据。" },
+      output: { en: "A broad working set, intentionally larger than the final answer.", zh: "一份刻意放宽范围的工作清单，供后续筛选。" },
+    },
+    {
+      title: { en: "Verify and challenge", zh: "逐条核对，也主动找反例" },
+      ai: { en: "Helped locate likely sources and flag contradictions or missing fields.", zh: "协助定位可能的来源，并找出信息冲突和缺口。" },
+      judgment: { en: "Checked first-party pages, separated company claims from facts, and looked for evidence that could overturn the initial view.", zh: "我回到第一方页面核实，区分品牌自述与可确认事实，也会主动寻找能推翻初步判断的证据。" },
+      output: { en: "A sourced shortlist with explicit gaps and confidence levels.", zh: "一份有出处的短名单，并标明证据缺口和判断把握。" },
+    },
+    {
+      title: { en: "Decide, build and test", zh: "做出取舍，再把假设变成测试" },
+      ai: { en: "Helped synthesize the findings, build the interactive prototype and generate concept imagery.", zh: "协助归纳研究、开发交互原型，并生成概念图。" },
+      judgment: { en: "Made the final calls, rewrote the copy, connected Parts 1–4 and turned unproven conclusions into survey, creator or landing-page tests.", zh: "最终取舍、文案改写和各 Part 之间的衔接由我完成；尚未证实的判断，则放进问卷、创作者试点或落地页测试。" },
+      output: { en: "A decision-ready case, plus a clear next evidence step.", zh: "一份可供讨论和决策的方案，以及下一步需要补齐的证据。" },
+    },
   ];
-  const changes = [
-    { draft: { en: "Naptick: unclear fulfillment and a $149 founder offer.", zh: "初稿把 Naptick 写成“发货信息不清楚，创始用户价 $149”。" }, checked: { en: "Its current product page states $349, a 60-night guarantee and Batch 3 shipping in Aug 2026.", zh: "核查后发现，其当前产品页写明 $349、60 晚退款保障，以及第 3 批预计于 2026 年 8 月发货。" }, final: { en: "Corrected the profile and retained only the remaining uncertainty: autonomous intervention is not clearly demonstrated publicly.", zh: "因此更正了价格和发货信息，只保留尚未被公开材料充分说明的疑问：是否存在真正的自动干预。" } },
-    { draft: { en: "Sleep.ai: direct consumer competitor.", zh: "初稿把 Sleep.ai 当作直接面向消费者的竞品。" }, checked: { en: "Its public offer includes SleepScore Labs, APIs and product-validation services alongside consumer sleep insight.", zh: "核查其公开业务后发现，除消费者睡眠洞察外，还包括 SleepScore Labs、API 和产品验证服务。" }, final: { en: "Reclassified it as measurement and validation adjacency, which changes the relevant GTM question from displacement to potential proof partnership.", zh: "因此将其改为“测量与验证邻近方”。对应的 GTM 问题也从“会不会替代我们”变为“能否成为验证能力的潜在伙伴”。" } },
-    { draft: { en: "Lead launch copy with multisensory novelty.", zh: "初稿倾向用“多感官新颖性”作为首要传播点。" }, checked: { en: "Soluna already makes a similar four-cue promise. The competitor scan does not establish novelty as an ownable position.", zh: "但 Soluna 已经提出相近的四感官承诺，竞品扫描并不能证明“多感官”是可独占的定位。" }, final: { en: "The prototype leads with the felt transition out of the day, then explains coordinated cues as the mechanism.", zh: "因此原型先讲“从忙碌进入休息”的体感收益，再用环境协同解释它如何做到。" } },
+  const verificationChecks = [
+    { en: "Facts that change quickly—price, availability, product status and creator channels—were checked on first-party pages and dated.", zh: "价格、上市状态、产品进度和创作者渠道这类容易变化的信息，以第一方页面为准，并注明调研时间。" },
+    { en: "A company’s own efficacy language stayed a company claim unless independent evidence supported it.", zh: "品牌自己说“有效”，只代表品牌主张；没有独立证据，就不会写成已经证实的结果。" },
+    { en: "Target users, weaknesses and GTM implications were presented as analyst judgments to validate, not discovered customer truths.", zh: "目标用户、产品短板和 GTM 启示属于分析判断，不会包装成已经得到用户验证的事实。" },
+    { en: "The final pass checked that Parts 1–4 used the same audience hypothesis, positioning logic, desired action and metric definitions.", zh: "最后再做一次全案检查，确保 Part 1–4 对目标用户、定位、期望行动和指标的说法前后一致。" },
+  ];
+  const decisions = [
+    { question: { en: "Is Sleep.ai a competitor or a possible partner?", zh: "Sleep.ai 到底更像竞品，还是潜在合作方？" }, evidence: { en: "Its public offer spans consumer sleep insight, APIs, SleepScore Labs and product-validation services.", zh: "它的公开业务不只面向消费者，还包括 API、SleepScore Labs 和产品验证服务。" }, decision: { en: "Place it beside the market as a measurement and validation adjacency—not in the direct DTC set—and flag a possible proof partnership.", zh: "因此没有把它当作直接面向消费者的竞品，而是放在“测量与验证”这一侧，并保留未来合作验证的可能性。" } },
+    { question: { en: "Should the page lead with multisensory novelty or user value?", zh: "页面应该先讲“多感官”，还是先讲用户能得到什么？" }, evidence: { en: "Soluna already makes a similar multi-cue promise, and the scan does not show that novelty alone earns purchase intent.", zh: "Soluna 已经在讲相近的多感官概念，现有研究也不能证明“新奇”本身会带来购买。" }, decision: { en: "Lead with the transition people can feel—leaving the day behind—and explain coordinated cues as the mechanism behind it.", zh: "所以落地页先讲用户能感受到的变化：从忙碌切换到休息；香氛、灯光、声音和温度则用来解释它是怎么做到的。" } },
+    { question: { en: "Which conclusions are recommendations, and which are still tests?", zh: "哪些可以写成建议，哪些只能先去验证？" }, evidence: { en: "Desk research cannot prove the winning segment, true willingness to pay or creator conversion.", zh: "桌面研究无法证明哪类用户一定会买，也无法验证真实支付意愿和创作者转化。" }, decision: { en: "Keep those conclusions as hypotheses and test them through the Part 2 survey, three creator pilots and the Part 4 data loop.", zh: "因此这些内容没有被写成确定答案，而是分别交给 Part 2 问卷、三组创作者试点和 Part 4 数据闭环继续验证。" } },
   ];
   return <main>
     <section className="article-hero">
       <p>{isEn ? "GTM TAKE-HOME · PART 5" : "GTM TAKE-HOME · 第五部分"}</p>
       <h1>{isEn ? "AI Workflow" : "AI 工作流说明"}</h1>
-      <span>{isEn ? "Generate broadly. Verify carefully. Decide with judgment." : "先扩展，再核查，最后基于判断收敛。"}</span>
+      <span>{isEn ? "AI accelerated the work; evidence and judgment shaped the answer." : "AI 提高效率，证据和判断决定答案。"}</span>
       <img src="./fullive/fullive-system-macro-v2.png" alt={isEn ? "Fullive One prototype" : "Fullive One 原型"} />
     </section>
     <article className="article-body">
-      <p>{isEn ? "AI accelerated research and production, but it was not treated as a source of truth. Current facts were checked, assumptions were labelled, and recommendations were framed as tests where evidence is still incomplete." : "AI 用于加快研究和产出，但不被当作事实来源。当前事实经过核查，假设明确标注；证据不足的建议都写成下一步需要验证的测试。"}</p>
+      <p>{isEn ? "AI was most useful for breadth, structure and production speed. I kept responsibility for scope, source quality, trade-offs and final recommendations. The workflow below shows how a broad AI-assisted draft became a smaller, sourced and testable answer." : "AI 最适合帮我拓宽检索范围、整理结构和加快制作；研究边界、来源判断、方案取舍和最终建议仍由我负责。下面这条流程说明，一份由 AI 协助生成的宽泛初稿，如何一步步收敛成有依据、可验证的答案。"}</p>
 
-      <h2>{isEn ? "Tools, use and verification" : "工具、用途与核查方式"}</h2>
-      <div className="workflow-grid">{workflowRows.map((item, index) => <section key={item.step.en}><span>{String(index + 1).padStart(2, "0")}</span><h3>{text(item.step, language)}</h3><p>{text(item.copy, language)}</p></section>)}</div>
+      <h2>{isEn ? "From brief to final answer" : "从题目到最终方案"}</h2>
+      <div className="ai-workflow-table">
+        <div className="ai-workflow-head"><span></span><b>{isEn ? "Step" : "步骤"}</b><b>{isEn ? "AI accelerated" : "AI 协助"}</b><b>{isEn ? "I decided" : "我的判断"}</b><b>{isEn ? "What this produced" : "这一步的产出"}</b></div>
+        {workflow.map((item, index) => <section key={item.title.en}><span>{String(index + 1).padStart(2, "0")}</span><div><h3>{text(item.title, language)}</h3></div><p><b>{isEn ? "AI accelerated" : "AI 协助"}</b>{text(item.ai, language)}</p><p><b>{isEn ? "I decided" : "我的判断"}</b>{text(item.judgment, language)}</p><p><b>{isEn ? "Output" : "这一步的产出"}</b>{text(item.output, language)}</p></section>)}
+      </div>
 
-      <h2>{isEn ? "What I changed after verification" : "核查后，我具体改了什么"}</h2>
-      <p>{isEn ? "The useful output of an AI workflow is visible correction, not a tool list. These three changes materially affected the case recommendation." : "AI 工作流的价值不在于列工具，而在于留下可见的修正。以下三项改动直接影响了案例中的判断。"}</p>
-      <div className="improvement-list">{changes.map((item, index) => <section key={item.draft.en}><span>{String(index + 1).padStart(2, "0")}</span><div><h3>{isEn ? "Initial draft" : "初稿"}</h3><p>{text(item.draft, language)}</p></div><div><h3>{isEn ? "After checking" : "核查后"}</h3><p>{text(item.checked, language)}</p></div><div><h3>{isEn ? "Final treatment" : "最终处理"}</h3><p>{text(item.final, language)}</p></div></section>)}</div>
+      <h2>{isEn ? "What counted as verified" : "什么样的信息才算核实过"}</h2>
+      <div className="quality-list">{verificationChecks.map((item, index) => <span key={item.en}><b>{String(index + 1).padStart(2, "0")}</b>{text(item, language)}</span>)}</div>
 
-      <div className="skill-note"><span>evidence-led-marketing-agent</span><h3>{isEn ? "The custom skill used for this case." : "本次案例使用的自定义 skill。"}</h3><p>{isEn ? "It combines the installed marketing modules with a required evidence check: source hierarchy, claim ledger, counter-check and documented rewrite. The local package passed structural validation." : "它把现有营销模块和一套必须执行的证据检查结合起来：来源层级、主张清单、反向核查和改写记录。本地技能包已通过结构校验。"}</p></div>
-      <p className="source-note">{isEn ? "Limit: this is desk research and a prototype, not proof of product-market fit. The next step is the Part 2 survey followed by three small creator pilots, using the Part 4 measurement plan to decide what to scale." : "边界：这是一份桌面研究和原型，不等于已经验证产品市场匹配。下一步是先跑 Part 2 问卷，再做三组小型创作者试点，并按 Part 4 的衡量方案决定扩大什么。"}</p>
+      <h2>{isEn ? "Where the evidence changed the answer" : "核对之后，哪些判断变了"}</h2>
+      <p>{isEn ? "Verification was not a final proofreading step. It changed who entered the competitor set, what the landing page led with and which conclusions remained hypotheses." : "核对资料不是最后才做的文字检查。它直接影响了谁被列入竞品、落地页先讲什么，以及哪些结论只能暂时保留为假设。"}</p>
+      <div className="improvement-list decision-ledger">{decisions.map((item, index) => <section key={item.question.en}><span>{String(index + 1).padStart(2, "0")}</span><div><h3>{isEn ? "Question" : "要判断什么"}</h3><p>{text(item.question, language)}</p></div><div><h3>{isEn ? "What I found" : "查到了什么"}</h3><p>{text(item.evidence, language)}</p></div><div><h3>{isEn ? "What entered the final case" : "最后怎么处理"}</h3><p>{text(item.decision, language)}</p></div></section>)}</div>
+
+      <div className="skill-note"><span>CUSTOM CODEX SKILL</span><h3><a href="https://github.com/Yixiang-Li/evidence-led-marketing-agent" target="_blank" rel="noreferrer">evidence-led-marketing-agent ↗</a></h3><p>{isEn ? "I built a reusable Codex skill for this case. It prompts the agent to rank sources, label facts and inferences separately, challenge its first answer and check that all four parts use the same strategic assumptions. The validated package is published on GitHub." : "我还为这份作业做了一个可复用的 Codex skill。它会提醒 agent 按可靠程度选择来源，分开记录事实与推断，主动挑战第一版答案，并检查四个 Part 是否建立在同一套策略假设上。该 skill 已通过结构校验并发布到 GitHub。"}</p></div>
+      <p className="source-note">{isEn ? "Scope: this is desk research and a launch prototype, not evidence of product-market fit. The next evidence should come from the Part 2 survey, three small creator pilots and the behavioral data defined in Part 4." : "研究边界：这份作业基于桌面研究和上线页面原型，不能据此判断产品已经找到市场。下一批证据应来自 Part 2 问卷、三组小规模创作者试点，以及 Part 4 设定的页面行为数据。"}</p>
     </article>
   </main>;
 }
