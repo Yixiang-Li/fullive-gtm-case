@@ -4,8 +4,21 @@ allowBuilds:
   sharp: true
   workerd: true
   '@tailwindcss/oxide': true
+  '@tailwindcss/oxide-linux-x64-gnu': true
+  '@tailwindcss/oxide-linux-x64-musl': true
   '@cloudflare/workerd-darwin-64': true
   '@cloudflare/workerd-darwin-arm64': true
   '@cloudflare/workerd-linux-64': true
   '@cloudflare/workerd-linux-arm64': true
   '@cloudflare/workerd-windows-64': true
+
+onlyBuiltDependencies:
+  - esbuild
+  - lightningcss
+  - sharp
+  - workerd
+  - '@tailwindcss/oxide'
+  - '@tailwindcss/oxide-linux-x64-gnu'
+  - '@tailwindcss/oxide-linux-x64-musl'
+  - '@cloudflare/workerd-linux-64'
+  - '@cloudflare/workerd-linux-arm64'
